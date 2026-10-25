@@ -29,8 +29,9 @@ with (see below) can.
 
 - **Game search and details:** when you search for a game or open its details, the app asks
   [Wikidata](https://www.wikidata.org) (run by the Wikimedia Foundation). The search text and
-  the game's ID are sent, and Wikidata, like any website, sees your device's IP address. No
-  name, account or library is sent. See the
+  the game's ID are sent, and Wikidata, like any website, sees your device's IP address. The
+  app also tells Wikidata its own name and version, as Wikimedia's rules require. No name,
+  account or library is sent. See the
   [Wikimedia Foundation Privacy Policy](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy).
 - **Links you open:** buttons such as *Where to Buy* open a store or reference website in
   your browser. Those sites have their own privacy policies, and the app sends them nothing
@@ -39,7 +40,7 @@ with (see below) can.
   [privacy policy](https://www.apple.com/legal/privacy/).
 
 That is everything. There are **no ads, no analytics, no tracking and no third-party
-software** that collects data, and the app does not link your activity to you.
+software** that collects data about you.
 
 ## Sharing with friends
 
@@ -54,9 +55,10 @@ your list to.
 
 - **Export:** you can export your library (CSV or JSON) whenever you like, so your data can
   always leave.
-- **Delete:** you can remove games one by one, or delete all your data in the app. Deleting
-  your data in the app removes it from this device and from your iCloud copy. (This setting is
-  planned before the first public build.)
+- **Delete:** you can remove games one by one, or delete all your data in the app: on iPhone
+  in **More ▸ Settings ▸ Delete All My Data**, and on Mac in **File ▸ Delete All My Data**.
+  That removes your library, history, friends and settings from this device, and, once iCloud
+  sync is on, your games from your iCloud copy. It can't be undone.
 - **Stop sharing** with a friend whenever you want.
 - You can also delete the app's iCloud data in your device's iCloud settings.
 
