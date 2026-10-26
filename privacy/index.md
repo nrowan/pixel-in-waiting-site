@@ -5,7 +5,7 @@ title: "Pixel In Waiting — Privacy Policy"
 
 # Pixel In Waiting — Privacy Policy
 
-_Effective 2026-10-24_
+_Effective 2026-10-25_
 
 Pixel In Waiting is an app for Mac and iPhone that tracks video games you have played or want
 to play. It is made by Nate Rowan, one person. This page says what happens to your data.
@@ -51,6 +51,11 @@ removes the link between you on both sides and deletes each person's copy of the
 library.** Your own library is not touched. Only share with people you are happy to show
 your list to.
 
+To invite someone, the app asks Apple's iCloud for a private invite link and hands it to
+Apple's share panel (Messages, Mail or Copy Link). The link only works for the person you
+invited. The name you choose for friends is stored in your iCloud and shown to people you
+share with. Until someone accepts, you see them as "Invited friend" or the name Apple gives.
+
 ## Your choices
 
 - **Export:** you can export your library (CSV or JSON) whenever you like, so your data can
@@ -81,6 +86,7 @@ it will also be announced in the app, with a link here, before it applies to you
 | Date | What changed |
 |---|---|
 | 2026-10-24 | First version. |
+| 2026-10-25 | Described how invites work: a private iCloud link, and the name friends see. |
 
 ## Contact
 
