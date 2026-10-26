@@ -61,7 +61,7 @@ share with. Until someone accepts, you see them as "Invited friend" or the name 
 - **Export:** you can export your library (CSV or JSON) whenever you like, so your data can
   always leave.
 - **Delete:** you can remove games one by one, or delete all your data in the app: on iPhone
-  in **More ▸ Settings ▸ Delete All My Data**, and on Mac in **File ▸ Delete All My Data**.
+  in **Home ▸ Settings (the gear) ▸ Delete All My Data**, and on Mac in **Settings ▸ Delete All My Data** or **File ▸ Delete All My Data**.
   That removes your library, history, friends and settings from this device, and, once iCloud
   sync is on, your games from your iCloud copy. It can't be undone.
 - **Stop sharing** with a friend whenever you want.
