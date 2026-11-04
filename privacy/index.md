@@ -5,7 +5,7 @@ title: "Pixel In Waiting — Privacy Policy"
 
 # Pixel In Waiting — Privacy Policy
 
-_Effective 2026-10-25_
+_Effective 2026-11-03_
 
 Pixel In Waiting is an app for Mac and iPhone that tracks video games you have played or want
 to play. It is made by Nate Rowan, one person. This page says what happens to your data.
@@ -46,7 +46,9 @@ software** that collects data about you.
 
 When friend sharing is turned on, you choose who can see your library. A friend you share
 with can see **your whole library, including your notes and reviews**, and can add a game to
-it; they cannot change or delete anything. You can stop at any time: **removing a friend
+it. The app does not let them change or delete anything. (iCloud gives an invited friend
+write access to your shared library, so this limit is kept by the app, not by iCloud.) You
+can stop at any time: **removing a friend
 removes the link between you on both sides and deletes each person's copy of the other's
 library.** Your own library is not touched. Only share with people you are happy to show
 your list to.
@@ -87,6 +89,7 @@ it will also be announced in the app, with a link here, before it applies to you
 |---|---|
 | 2026-10-24 | First version. |
 | 2026-10-25 | Described how invites work: a private iCloud link, and the name friends see. |
+| 2026-11-03 | Said plainly that the limit on a friend's access (add a game, nothing more) is kept by the app, because iCloud gives invited friends write access. |
 
 ## Contact
 
