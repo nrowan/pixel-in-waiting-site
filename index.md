@@ -36,6 +36,11 @@ your devices and in your own iCloud. Read the full [Privacy Policy](privacy/).
 A Mac with macOS 27 or later, or an iPhone with iOS 27 or later. iCloud is needed for syncing
 and for sharing with friends.
 
+## Why I built it
+
+A friend and I wanted a better way to track games than a shared spreadsheet. Read the
+[story and what comes next](about/).
+
 ## Help
 
 Questions, or something not working? See [Support](support/).
