@@ -78,9 +78,8 @@ that game ("Added by") and shown to you.
 - **Delete:** you can remove games one by one, or delete all your data in the app: on iPhone
   in **Home ▸ Settings (the gear) ▸ Delete All My Data**, and on Mac in **Settings ▸ Delete All My Data** or **File ▸ Delete All My Data**.
   That removes your library, history, friends and settings from this device, and, once iCloud
-  sync is on, your games from your iCloud copy. It can't be undone. It does not by itself end
-  sharing with the friends you share with, so remove or stop sharing with them first if you
-  want that.
+  sync is on, your games and your profile name from your iCloud copy. It also ends your sharing,
+  so the friends you shared with can no longer see your games. It can't be undone.
 - **Stop sharing** with a friend whenever you want.
 - **Support info:** if something goes wrong, **Settings ▸ Support Info** shows a short report you can
   read, copy or share to get help. It is made on your device and goes nowhere unless you send it.
@@ -117,6 +116,7 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-10-25 | Described how invites work: a private iCloud link, and the name friends see. |
 | 2026-11-03 | Said plainly that the limit on a friend's access (add a game, nothing more) is kept by the app, because iCloud gives invited friends write access. |
 | 2026-11-05 | Brought the page up to date with the app: what is kept on your device (copies of friends' libraries, a sharing log, an undo history), the silent notifications from iCloud, that a friend's profile name is saved on a game they add, that Delete All My Data does not end sharing by itself, TestFlight's iCloud Diagnostics, and Support Info, a report you can read and send yourself with names and links removed. Nothing is sent by the app. |
+| 2026-11-05 | Delete All My Data now also ends your sharing and deletes your profile name from iCloud (it no longer says it does not end sharing). |
 
 ## Contact
 
