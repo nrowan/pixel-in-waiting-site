@@ -47,7 +47,19 @@ deletes your profile name. It cannot be undone, so export first if you want a co
 **I removed a game by mistake.**
 **Recent Changes** keeps removals and imports for three days, and you can undo them there.
 
+**Covers, time to beat or ratings are missing for a game.**
+The details come from IGDB, which does not know every game. Check you are online, then open the game
+again; the app asks again when its saved details are a week old for a new game, or three months for an
+older one. **Settings ▸ Game Data ▸ Refresh Game Data** asks again now, once an hour. If the data service
+is very busy, the app shows placeholders and fills them in later.
+
+**How do I clear the covers and details the app saved?**
+**Settings ▸ Game Data ▸ Clear Cached Game Data.** They are saved only on your device and come back when
+you open a game. Your library is not touched.
+
 **Where does my data live?**
-On your device and in your own iCloud account. See the [Privacy Policy](../privacy/).
+Your library is on your device and in your own iCloud account. Game details and covers from IGDB are
+looked up through a small server and saved only on your device, apart from two facts per game (main story
+time and game modes) that also sit in your private iCloud. See the [Privacy Policy](../privacy/).
 
 [Back to Pixel In Waiting](../)

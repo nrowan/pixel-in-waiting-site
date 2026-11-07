@@ -10,8 +10,10 @@ _Effective 2026-11-05_
 Pixel In Waiting is an app for Mac and iPhone that tracks video games you have played or want
 to play. It is made by Nate Rowan, one person. This page says what happens to your data.
 
-**The short version:** your game list belongs to you. The developer has no server, no
-accounts, no analytics and no way to see your data.
+**The short version:** your game list belongs to you. The developer has no accounts, no
+analytics and keeps no copy of your library, notes or ratings. To show covers and game
+details, the developer runs a small Cloudflare Worker that passes the app's requests on to IGDB.
+It keeps no record of them.
 
 ## What the app stores
 
@@ -25,12 +27,20 @@ accounts, no analytics and no way to see your data.
   never leaves your device unless you send it (see **Support info**).
 - **A short history of removals, imports and changes,** on your device only, for undoing them
   for three days.
+- **Game facts and pictures from IGDB,** on your device only: covers, screenshots, time to
+  beat, game modes and ratings, kept so the app works offline and doesn't ask twice. They are
+  never synced, exported or shared. **Settings ▸ Game Data ▸ Clear Cached Game Data** removes them.
 
 On your device this is kept in the app's own storage. When iCloud sync is available, your
 library is also kept in **your own iCloud account** (Apple's CloudKit), so it can appear on
 your other devices. It is stored in your private iCloud and counts against your iCloud
 storage. The developer cannot read it; only your devices and the people you choose to share
 with (see below) can.
+
+Next to your library, your private iCloud also keeps two facts about each game, taken from IGDB:
+the main story time and the game modes. That lets your other devices show them without asking
+again. They are kept apart from the library you share, so friends cannot see them. You can turn
+this off in **Settings ▸ Game Data**, and Delete All My Data removes them.
 
 ## What the app sends over the internet
 
@@ -40,6 +50,20 @@ with (see below) can.
   app also tells Wikidata its own name and version, as Wikimedia's rules require. No name,
   account or library is sent. See the
   [Wikimedia Foundation Privacy Policy](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy).
+- **Game details, covers and lists (IGDB):** [IGDB](https://www.igdb.com) is a game database
+  owned by Twitch. When the app needs a game's cover, time to beat, modes or ratings, it asks a
+  small server run by the developer (hosted by Cloudflare), by the game's ID or web name. This
+  happens for the games in your library when the app opens, for a game you open, and for the
+  games shown in Add a Game's lists, in search results and in a friend's library. The server
+  passes the question on to IGDB with the developer's own access key and sends the answer back.
+  **Not sent:** the words you search for (searching stays with Wikidata), your name, your
+  account, your notes, ratings or play status. The request also carries a key that is the same in
+  every copy of that kind of build (it says "this is the app", not who you are). The server's
+  host, like any website, sees your device's IP address. The server keeps **no log of requests**.
+  To stop abuse it keeps a running count of requests per network address for up to an hour, and
+  a once-a-day copy of the popular and upcoming games lists, which belongs to no one.
+- **Pictures:** covers and screenshots are downloaded straight from IGDB's image servers, which,
+  like any website, see your IP address and which picture you asked for.
 - **Links you open:** buttons such as *Where to Buy* open a store or reference website in
   your browser. Those sites have their own privacy policies, and the app sends them nothing
   but the address you opened.
@@ -117,6 +141,7 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-11-03 | Said plainly that the limit on a friend's access (add a game, nothing more) is kept by the app, because iCloud gives invited friends write access. |
 | 2026-11-05 | Brought the page up to date with the app: what is kept on your device (copies of friends' libraries, a sharing log, an undo history), the silent notifications from iCloud, that a friend's profile name is saved on a game they add, that Delete All My Data does not end sharing by itself, TestFlight's iCloud Diagnostics, and Support Info, a report you can read and send yourself with names and links removed. Nothing is sent by the app. |
 | 2026-11-05 | Delete All My Data now also ends your sharing and deletes your profile name from iCloud (it no longer says it does not end sharing). |
+| (date set when published) | Game details, covers and lists now come from IGDB through a small server run by the developer, which replaces "the developer has no server". Said what is sent to it and what is not, that two facts per game (main story time and game modes) are also kept in your private iCloud, and that IGDB's image servers see your IP address when pictures download. |
 
 ## Contact
 

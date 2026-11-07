@@ -14,11 +14,14 @@ next.
 ## What it does
 
 - **Find and add games.** Search released and upcoming games and add them to your library.
+- **Covers and details.** Cover art, how long a game takes to beat, its game modes and ratings,
+  from IGDB, plus lists in Add a Game of what is popular, new and coming soon.
 - **Track and rate.** Mark each game Upcoming, Wishlist, Owned, Playing, Played or Abandoned.
   Add a rating, how interested you are, a review, why you want to play it, and the dates and
   platform you played it on.
-- **Decide what to play next.** Sort, search and filter your library, and see Play Next picks
-  based on what you are keen on.
+- **Decide what to play next.** Sort, search and filter your library by length, modes and rating,
+  and see Play Next picks based on what you are keen on, how long a game takes and whether it
+  is co-op.
 - **Share with friends.** Invite friends with a private link. You see each other's libraries,
   and a friend can add a game to yours. Only people you invite can see anything.
 - **Your devices stay in step.** Your library lives in your own iCloud account and syncs
@@ -28,8 +31,9 @@ next.
 
 ## Privacy
 
-No account, no ads, no tracking, and nothing is sent to the developer. Your library is kept on
-your devices and in your own iCloud. Read the full [Privacy Policy](privacy/).
+No account, no ads, no tracking. Your library is kept on your devices and in your own iCloud.
+A small server of mine looks up game details by game ID and keeps no record of what was asked.
+Read the full [Privacy Policy](privacy/).
 
 ## Requirements
 
@@ -40,6 +44,11 @@ and for sharing with friends.
 
 A friend and I wanted a better way to track games than a shared spreadsheet. Read the
 [story and what comes next](about/).
+
+## Credits
+
+Game data from [Wikidata](https://www.wikidata.org) (public domain) and [IGDB](https://www.igdb.com).
+Powered by IGDB.
 
 ## Help
 
