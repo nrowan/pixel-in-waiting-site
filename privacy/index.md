@@ -37,8 +37,8 @@ your other devices. It is stored in your private iCloud and counts against your 
 storage. The developer cannot read it; only your devices and the people you choose to share
 with (see below) can.
 
-Next to your library, your private iCloud also keeps two facts about each game, taken from IGDB:
-the main story time and the game modes. That lets your other devices show them without asking
+Next to your library, your private iCloud also keeps a few facts about each game, taken from IGDB:
+its three times to beat (main story, main + extras and completionist) and its game modes. That lets your other devices show them without asking
 again. They are kept apart from the library you share, so friends cannot see them. You can turn
 this off in **Settings ▸ Game Data**, and Delete All My Data removes them.
 
@@ -141,7 +141,7 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-11-03 | Said plainly that the limit on a friend's access (add a game, nothing more) is kept by the app, because iCloud gives invited friends write access. |
 | 2026-11-05 | Brought the page up to date with the app: what is kept on your device (copies of friends' libraries, a sharing log, an undo history), the silent notifications from iCloud, that a friend's profile name is saved on a game they add, that Delete All My Data does not end sharing by itself, TestFlight's iCloud Diagnostics, and Support Info, a report you can read and send yourself with names and links removed. Nothing is sent by the app. |
 | 2026-11-05 | Delete All My Data now also ends your sharing and deletes your profile name from iCloud (it no longer says it does not end sharing). |
-| (date set when published) | Game details, covers and lists now come from IGDB through a small server run by the developer, which replaces "the developer has no server". Said what is sent to it and what is not, that two facts per game (main story time and game modes) are also kept in your private iCloud, and that IGDB's image servers see your IP address when pictures download. |
+| (date set when published) | Game details, covers and lists now come from IGDB through a small server run by the developer, which replaces "the developer has no server". Said what is sent to it and what is not, that a few facts per game (its three times to beat and its game modes) are also kept in your private iCloud, and that IGDB's image servers see your IP address when pictures download. |
 
 ## Contact
 

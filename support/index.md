@@ -59,7 +59,7 @@ you open a game. Your library is not touched.
 
 **Where does my data live?**
 Your library is on your device and in your own iCloud account. Game details and covers from IGDB are
-looked up through a small server and saved only on your device, apart from two facts per game (main story
-time and game modes) that also sit in your private iCloud. See the [Privacy Policy](../privacy/).
+looked up through a small server and saved only on your device, apart from a few facts per game (its three times to beat
+and game modes) that also sit in your private iCloud. See the [Privacy Policy](../privacy/).
 
 [Back to Pixel In Waiting](../)
