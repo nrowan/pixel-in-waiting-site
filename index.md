@@ -22,6 +22,8 @@ next.
 - **Decide what to play next.** Sort, search and filter your library by length, modes and rating,
   and see Play Next picks based on what you are keen on, how long a game takes and whether it
   is co-op.
+- **Home at a glance.** What you are playing, upcoming releases on your wishlist, how many games you finished each year and what your friends played lately, all on one screen.
+- **Release-day reminders.** Optional, and off until you turn them on: a notification at 9 AM on the day a game on your Upcoming list comes out. They are made on your device. Press and hold the app icon on iPhone, or use the Dock menu on Mac, to jump to a game you are playing or to Add a Game.
 - **Share with friends.** Invite friends with a private link. You see each other's libraries,
   and a friend can add a game to yours. Only people you invite can see anything.
 - **Your devices stay in step.** Your library lives in your own iCloud account and syncs

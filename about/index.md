@@ -11,7 +11,7 @@ My friend and I were tracking games we wanted to play in a Google Sheet. It work
 
 ## How
 
-The app pulls game data from Wikidata using just your search text (shout out to Wikidata for their free, anonymous endpoints). Covers, time to beat and ratings come from IGDB, through a small server of mine that looks up games by ID so the access key stays off your phone. Your library lives on your devices and iCloud keeps them in sync. Sharing with friends is iCloud too, so my server is never in the middle of your library or your friends. Friends only see what you choose to share, and the rest stays yours. You can export it any time to take it somewhere else, or delete it and forget about it.
+The app pulls game data from Wikidata using just your search text (shout out to Wikidata for their free, anonymous endpoints). Covers, time to beat and ratings come from IGDB, through a small server of mine that looks up games by ID so the access key stays off your phone. Your library lives on your devices and iCloud keeps them in sync. Sharing with friends is iCloud too, so my server is never in the middle of your library or your friends. Friends only see what you choose to share, and the rest stays yours. You can export it any time to take it somewhere else, or delete it and forget about it. If you turn on release-day reminders, they are made on your phone or Mac too; nothing about them leaves it.
 
 Because the app is free, the first launch had no servers of mine, which limited features like artwork, longer game details and popularity. Now there is one small server, on Cloudflare's free plan, that fetches those from IGDB. It keeps nothing about you.
 

@@ -50,12 +50,18 @@ deletes your profile name. It cannot be undone, so export first if you want a co
 **Covers, time to beat or ratings are missing for a game.**
 The details come from IGDB, which does not know every game. Check you are online, then open the game
 again; the app asks again when its saved details are a week old for a new game, or three months for an
-older one. **Settings ▸ Game Data ▸ Refresh Game Data** asks again now, once an hour. If the data service
+older one. **Settings ▸ Game data ▸ Refresh Game Data** asks again now, once an hour. If the data service
 is very busy, the app shows placeholders and fills them in later.
 
 **How do I clear the covers and details the app saved?**
-**Settings ▸ Game Data ▸ Clear Cached Game Data.** They are saved only on your device and come back when
+**Settings ▸ Game data ▸ Clear Cached Game Data.** They are saved only on your device and come back when
 you open a game. Your library is not touched.
+
+**How do I turn release-day reminders on or off?**
+**Settings ▸ Release reminders ▸ Remind me on release day.** Turning it on asks your Mac or iPhone for permission to show notifications. If you said no, allow Pixel In Waiting in System Settings ▸ Notifications and try again. You get one notification at 9 AM on the day a game on your Upcoming list comes out, and only for games with an exact date. Tap it to open the game. Turning the switch off removes them.
+
+**The sync line says "Another device just changed a game. Syncing again…"**
+Two of your devices changed the same game at about the same time. The app syncs again by itself; nothing is lost. If it stays on that line, open the app on the other device and try **Sync Now** in **Settings ▸ iCloud**.
 
 **Where does my data live?**
 Your library is on your device and in your own iCloud account. Game details and covers from IGDB are

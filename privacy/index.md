@@ -25,11 +25,12 @@ It keeps no record of them.
 - **A short log of sharing events** (such as an invite sent or accepted, with times, counts and
   shortened IDs, and friends' names), on your device only. It is shown in TestFlight builds and
   never leaves your device unless you send it (see **Support info**).
+- **Release-day reminders (optional, off until you turn them on).** If you switch on **Settings ▸ Release reminders**, the app asks your Mac or iPhone for permission to show notifications and then schedules a local notification for 9 AM on the day each game on your Upcoming list comes out. They are made and shown on your device; nothing about them is sent to the developer, to Apple's push service or to anyone else. Turning the switch off, or Delete All My Data, removes them.
 - **A short history of removals, imports and changes,** on your device only, for undoing them
   for three days.
 - **Game facts and pictures from IGDB,** on your device only: covers, screenshots, time to
   beat, game modes and ratings, kept so the app works offline and doesn't ask twice. They are
-  never synced, exported or shared. **Settings ▸ Game Data ▸ Clear Cached Game Data** removes them.
+  never synced, exported or shared. **Settings ▸ Game data ▸ Clear Cached Game Data** removes them.
 
 On your device this is kept in the app's own storage. When iCloud sync is available, your
 library is also kept in **your own iCloud account** (Apple's CloudKit), so it can appear on
@@ -40,7 +41,7 @@ with (see below) can.
 Next to your library, your private iCloud also keeps a few facts about each game, taken from IGDB:
 its three times to beat (main story, main + extras and completionist) and its game modes. That lets your other devices show them without asking
 again. They are kept apart from the library you share, so friends cannot see them. You can turn
-this off in **Settings ▸ Game Data**, and Delete All My Data removes them.
+this off in **Settings ▸ Data saving**, and Delete All My Data removes them.
 
 ## What the app sends over the internet
 
@@ -141,7 +142,7 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-11-03 | Said plainly that the limit on a friend's access (add a game, nothing more) is kept by the app, because iCloud gives invited friends write access. |
 | 2026-11-05 | Brought the page up to date with the app: what is kept on your device (copies of friends' libraries, a sharing log, an undo history), the silent notifications from iCloud, that a friend's profile name is saved on a game they add, that Delete All My Data does not end sharing by itself, TestFlight's iCloud Diagnostics, and Support Info, a report you can read and send yourself with names and links removed. Nothing is sent by the app. |
 | 2026-11-05 | Delete All My Data now also ends your sharing and deletes your profile name from iCloud (it no longer says it does not end sharing). |
-| (date set when published) | Game details, covers and lists now come from IGDB through a small server run by the developer, which replaces "the developer has no server". Said what is sent to it and what is not, that a few facts per game (its three times to beat and its game modes) are also kept in your private iCloud, and that IGDB's image servers see your IP address when pictures download. |
+| (date set when published) | Game details, covers and lists now come from IGDB through a small server run by the developer, which replaces "the developer has no server". Said what is sent to it and what is not, that a few facts per game (its three times to beat and its game modes) are also kept in your private iCloud, and that IGDB's image servers see your IP address when pictures download. Also described the optional release-day reminders, which are local notifications that collect and send nothing. |
 
 ## Contact
 
