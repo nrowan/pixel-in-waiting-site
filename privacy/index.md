@@ -63,6 +63,10 @@ this off in **Settings ▸ Data saving**, and Delete All My Data removes them.
   host, like any website, sees your device's IP address. The server keeps **no log of requests**.
   To stop abuse it keeps a running count of requests per network address for up to an hour, and
   a once-a-day copy of the popular and upcoming games lists, which belongs to no one.
+  To hide the pictures of adult games, the server also asks Steam's public store page
+  (store.steampowered.com) whether a game carries adult content labels, by the game's Steam number
+  only, and keeps a list of game numbers marked adult or not, which also belongs to no one. Nothing
+  about you is sent to Steam; the server's address is what Steam sees.
 - **Pictures:** covers and screenshots are downloaded straight from IGDB's image servers, which,
   like any website, see your IP address and which picture you asked for.
 - **Links you open:** buttons such as *Where to Buy* open a store or reference website in
@@ -142,7 +146,7 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-11-03 | Said plainly that the limit on a friend's access (add a game, nothing more) is kept by the app, because iCloud gives invited friends write access. |
 | 2026-11-05 | Brought the page up to date with the app: what is kept on your device (copies of friends' libraries, a sharing log, an undo history), the silent notifications from iCloud, that a friend's profile name is saved on a game they add, that Delete All My Data does not end sharing by itself, TestFlight's iCloud Diagnostics, and Support Info, a report you can read and send yourself with names and links removed. Nothing is sent by the app. |
 | 2026-11-05 | Delete All My Data now also ends your sharing and deletes your profile name from iCloud (it no longer says it does not end sharing). |
-| (date set when published) | Game details, covers and lists now come from IGDB through a small server run by the developer, which replaces "the developer has no server". Said what is sent to it and what is not, that a few facts per game (its three times to beat and its game modes) are also kept in your private iCloud, and that IGDB's image servers see your IP address when pictures download. Also described the optional release-day reminders, which are local notifications that collect and send nothing. |
+| (date set when published) | Game details, covers and lists now come from IGDB through a small server run by the developer, which replaces "the developer has no server". Said what is sent to it and what is not, that a few facts per game (its three times to beat and its game modes) are also kept in your private iCloud, and that IGDB's image servers see your IP address when pictures download. Also described the optional release-day reminders, which are local notifications that collect and send nothing. The server also checks Steam's public store page for adult content labels, so the app can hide adult games' pictures. |
 
 ## Contact
 
