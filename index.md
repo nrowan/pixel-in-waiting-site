@@ -25,11 +25,13 @@ next.
 - **Home at a glance.** What you are playing, upcoming releases on your wishlist, how many games you finished each year and what your friends played lately, all on one screen.
 - **Release-day reminders.** Optional, and off until you turn them on: a notification at 9 AM on the day a game on your Upcoming list comes out. They are made on your device. Press and hold the app icon on iPhone, or use the Dock menu on Mac, to jump to a game you are playing or to Add a Game.
 - **Share with friends.** Invite friends with a private link. You see each other's libraries,
-  and a friend can add a game to yours. Only people you invite can see anything.
+  and a friend can add a game to yours. See which of their games you don't have yet. Only
+  people you invite can see anything.
 - **Your devices stay in step.** Your library lives in your own iCloud account and syncs
   between your Mac and iPhone. It works offline too.
 - **Your data is yours.** Export your library as CSV or JSON whenever you like, import a list
-  you already have, undo removals for three days, and delete everything from inside the app.
+  you already have (a CSV or JSON file opens straight from Messages or Files), undo removals for
+  three days, and delete everything from inside the app.
 
 ## Privacy
 
