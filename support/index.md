@@ -39,6 +39,13 @@ remove them from your list.
 **How do I get my games out of the app?**
 **Settings ▸ Export** saves your library as CSV or JSON. You can import a file the same way.
 
+**A friend sent me their list as a CSV or JSON file. How do I open it?**
+On iPhone, tap the file in Messages or Files, then choose share and **Pixel In Waiting**. On Mac,
+right-click the file in Finder and choose **Open With ▸ Pixel In Waiting**. The app opens the same
+import screen as in Settings, so you can see what will be added first; **Cancel** adds nothing.
+A list from another copy of the app starts on **Restore missing only**, so games you already have are
+kept as they are, and **Recent Changes** can undo an import for three days.
+
 **How do I delete my data?**
 **Settings ▸ Delete All My Data** (on Mac also File ▸ Delete All My Data). It removes your
 library, history, friends and settings from your device and from iCloud, ends your sharing and
