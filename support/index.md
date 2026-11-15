@@ -60,6 +60,21 @@ that conflicts with one you already have is offered unticked, so yours stays unl
 **Undo Import** (or **Recent Changes**, for three days) reverses the whole import. Importing the same file again
 changes nothing.
 
+**Can the app fill in the platform for me?**
+Yes. In **Settings**, choose a **Default platform**. When you mark a game Owned, Playing, Played or Abandoned and its
+platform is empty, the app fills in the default, if the game is on that platform. It never replaces a platform you
+set, and the setting is kept on this device only.
+
+**Can I change the status, interest or platform of many games at once?**
+On iPhone, tap **More ▸ Select Games** (or press and hold a game and choose **Select**), tick the games, then tap
+**Change**. On Mac, select the games and right-click. You can set their status, interest level and platform. Games
+that already have a platform, or are not on the one you pick, are left alone, and the app tells you which. **Recent
+Changes** can undo it for three days.
+
+**Why is a game missing from Play Next?**
+Play Next shows a game only when someone who hasn't played it has set an interest level. Set one on the game's page
+and it appears. A note on the screen says how many games were left out.
+
 **A friend sent me their list as a CSV or JSON file. How do I open it?**
 On iPhone, tap the file in Messages or Files, then choose share and **Pixel In Waiting**. On Mac,
 right-click the file in Finder and choose **Open With ▸ Pixel In Waiting**. The app opens the same
