@@ -5,7 +5,7 @@ title: "Pixel In Waiting — Privacy Policy"
 
 # Pixel In Waiting — Privacy Policy
 
-_Effective 2026-11-09_
+_Effective 2026-11-13_
 
 Pixel In Waiting is an app for Mac and iPhone that tracks video games you have played or want
 to play. It is made by Nate Rowan, one person. This page says what happens to your data.
@@ -18,7 +18,8 @@ It keeps no record of them.
 ## What the app stores
 
 - **Your library:** the games you add and what you record about them (status, rating,
-  interest, notes such as *Why Play It* and *My Review*, dates, platform played).
+  interest, notes such as *Why Play It* and *My Review*, dates, platform played, and the
+  platforms you own a game on, each with how you have it, its days and its hours).
 - **Your settings and friends list** on your device.
 - **Copies of your friends' libraries,** on your device only, so you can browse them offline.
   They are replaced when a friend stops sharing and are removed when you remove the friend.
@@ -26,8 +27,8 @@ It keeps no record of them.
   shortened IDs, and friends' names), on your device only. It is shown in TestFlight builds and
   never leaves your device unless you send it (see **Support info**).
 - **Release-day reminders (optional, off until you turn them on).** If you switch on **Settings ▸ Release reminders**, the app asks your Mac or iPhone for permission to show notifications and then schedules a local notification for 9 AM on the day each game on your Upcoming list comes out. They are made and shown on your device; nothing about them is sent to the developer, to Apple's push service or to anyone else. Turning the switch off, or Delete All My Data, removes them.
-- **A short history of removals, imports and changes,** on your device only, for undoing them
-  for three days.
+- **A short history of removals, imports and changes,** such as switching a game to a different
+  edition with **Change Game**, on your device only, for undoing them for three days.
 - **Game facts and pictures from IGDB,** on your device only: covers, screenshots, time to
   beat, game modes and ratings, kept so the app works offline and doesn't ask twice. They are
   never synced, exported or shared. **Settings ▸ Game data ▸ Clear Cached Game Data** removes them.
@@ -69,6 +70,12 @@ this off in **Settings ▸ Data saving**, and Delete All My Data removes them.
   about you is sent to Steam; the server's address is what Steam sees.
 - **Pictures:** covers and screenshots are downloaded straight from IGDB's image servers, which,
   like any website, see your IP address and which picture you asked for.
+- **Importing a file:** the advanced import reads a JSON file you choose, **on your device**. The
+  file is never sent anywhere, and nothing in it is kept except the games you choose to add. To
+  find each game the app asks Wikidata for it by the game's ID, and, like any game you add, asks
+  the developer's server for its time to beat by game ID. The hours, dates, platforms and
+  achievements in the file are not sent. The file holds no name, email or account details, and
+  the app does not read any that a file might carry.
 - **Links you open:** buttons such as *Where to Buy* open a store or reference website in
   your browser. Those sites have their own privacy policies, and the app sends them nothing
   but the address you opened.
@@ -85,8 +92,8 @@ software** that collects data about you.
 ## Sharing with friends
 
 When friend sharing is turned on, you choose who can see your library. A friend you share
-with can see **your whole library, including your notes and reviews**, and can add a game to
-it. The app does not let them change or delete anything. (iCloud gives an invited friend
+with can see **your whole library, including your notes, reviews and the platforms you own each
+game on with their days and hours**, and can add a game to it. The app does not let them change or delete anything. (iCloud gives an invited friend
 write access to your shared library, so this limit is kept by the app, not by iCloud.) You
 can stop at any time: **removing a friend
 removes the link between you on both sides and deletes each person's copy of the other's
@@ -147,6 +154,7 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-11-05 | Brought the page up to date with the app: what is kept on your device (copies of friends' libraries, a sharing log, an undo history), the silent notifications from iCloud, that a friend's profile name is saved on a game they add, that Delete All My Data does not end sharing by itself, TestFlight's iCloud Diagnostics, and Support Info, a report you can read and send yourself with names and links removed. Nothing is sent by the app. |
 | 2026-11-05 | Delete All My Data now also ends your sharing and deletes your profile name from iCloud (it no longer says it does not end sharing). |
 | 2026-11-09 | Game details, covers and lists now come from IGDB through a small server run by the developer, which replaces "the developer has no server". Said what is sent to it and what is not, that a few facts per game (its three times to beat and its game modes) are also kept in your private iCloud, and that IGDB's image servers see your IP address when pictures download. Also described the optional release-day reminders, which are local notifications that collect and send nothing. The server also checks Steam's public store page for adult content labels, so the app can hide adult games' pictures. |
+| 2026-11-13 | Described the platforms you can record on a game (how you have it, days and hours), which friends you share with can see; the advanced import, which reads a JSON file you choose on your device and sends none of its contents anywhere (the app asks Wikidata and the developer's server for each game by its ID, as it does for any game); and Change Game, which switches a game to a different edition and is kept in the undo history. Nothing new is collected, and the App Store privacy label stays "Data Not Collected". |
 
 ## Contact
 
