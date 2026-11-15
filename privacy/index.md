@@ -5,9 +5,9 @@ title: "Pixel In Waiting — Privacy Policy"
 
 # Pixel In Waiting — Privacy Policy
 
-_Effective 2026-11-13_
+_Effective 2026-11-15_
 
-Pixel In Waiting is an app for Mac and iPhone that tracks video games you have played or want
+Pixel In Waiting is an app for Mac, iPhone and iPad that tracks video games you have played or want
 to play. It is made by Nate Rowan, one person. This page says what happens to your data.
 
 **The short version:** your game list belongs to you. The developer has no accounts, no
@@ -26,7 +26,7 @@ It keeps no record of them.
 - **A short log of sharing events** (such as an invite sent or accepted, with times, counts and
   shortened IDs, and friends' names), on your device only. It is shown in TestFlight builds and
   never leaves your device unless you send it (see **Support info**).
-- **Release-day reminders (optional, off until you turn them on).** If you switch on **Settings ▸ Release reminders**, the app asks your Mac or iPhone for permission to show notifications and then schedules a local notification for 9 AM on the day each game on your Upcoming list comes out. They are made and shown on your device; nothing about them is sent to the developer, to Apple's push service or to anyone else. Turning the switch off, or Delete All My Data, removes them.
+- **Release-day reminders (optional, off until you turn them on).** If you switch on **Settings ▸ Release reminders**, the app asks your Mac, iPhone or iPad for permission to show notifications and then schedules a local notification for 9 AM on the day each game on your Upcoming list comes out. They are made and shown on your device; nothing about them is sent to the developer, to Apple's push service or to anyone else. Turning the switch off, or Delete All My Data, removes them.
 - **A short history of removals, imports and changes,** such as switching a game to a different
   edition with **Change Game**, on your device only, for undoing them for three days.
 - **Game facts and pictures from IGDB,** on your device only: covers, screenshots, time to
@@ -111,7 +111,7 @@ that game ("Added by") and shown to you.
 
 - **Export:** you can export your library (CSV or JSON) whenever you like, so your data can
   always leave.
-- **Delete:** you can remove games one by one, or delete all your data in the app: on iPhone
+- **Delete:** you can remove games one by one, or delete all your data in the app: on iPhone and iPad
   in **Home ▸ Settings (the gear) ▸ Delete All My Data**, and on Mac in **Settings ▸ Delete All My Data** or **File ▸ Delete All My Data**.
   That removes your library, history, friends and settings from this device, and, once iCloud
   sync is on, your games and your profile name from your iCloud copy. It also ends your sharing,
@@ -155,6 +155,7 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-11-05 | Delete All My Data now also ends your sharing and deletes your profile name from iCloud (it no longer says it does not end sharing). |
 | 2026-11-09 | Game details, covers and lists now come from IGDB through a small server run by the developer, which replaces "the developer has no server". Said what is sent to it and what is not, that a few facts per game (its three times to beat and its game modes) are also kept in your private iCloud, and that IGDB's image servers see your IP address when pictures download. Also described the optional release-day reminders, which are local notifications that collect and send nothing. The server also checks Steam's public store page for adult content labels, so the app can hide adult games' pictures. |
 | 2026-11-13 | Described the platforms you can record on a game (how you have it, days and hours), which friends you share with can see; the advanced import, which reads a JSON file you choose on your device and sends none of its contents anywhere (the app asks Wikidata and the developer's server for each game by its ID, as it does for any game); and Change Game, which switches a game to a different edition and is kept in the undo history. Nothing new is collected, and the App Store privacy label stays "Data Not Collected". |
+| 2026-11-15 | Said the app is also for iPad. Nothing new is collected or shared; an iPad works like an iPhone, and the App Store privacy label stays "Data Not Collected". |
 
 ## Contact
 

@@ -12,7 +12,7 @@ a question, email **naterowandev@gmail.com**. I read every message.
 
 The app can write a short report that helps me see what went wrong:
 
-1. Open **Settings ▸ Support Info** (on iPhone: the gear on Home).
+1. Open **Settings ▸ Support Info** (on iPhone and iPad: the gear on Home).
 2. Read the report. It holds the app and system versions, the iCloud status, counts and a log
    of sharing events with their times. Names are replaced with "Me" and "Friend 1", "Friend 2",
    and links, email addresses and long IDs are removed or cut short.
@@ -23,9 +23,9 @@ Nothing is sent unless you send it.
 
 ## Common questions
 
-**My games are not syncing between my Mac and iPhone.**
+**My games are not syncing between my Mac, iPhone and iPad.**
 Check that both devices are signed in to the same iCloud account and that iCloud is on for
-Pixel In Waiting (Settings ▸ iCloud on iPhone, System Settings ▸ Apple Account ▸ iCloud on
+Pixel In Waiting (Settings ▸ iCloud on iPhone or iPad, System Settings ▸ Apple Account ▸ iCloud on
 Mac). Sync needs a connection; the app works offline and catches up later.
 
 **A friend's invite does not work.**
@@ -66,7 +66,7 @@ platform is empty, the app fills in the default, if the game is on that platform
 set, and the setting is kept on this device only.
 
 **Can I change the status, interest or platform of many games at once?**
-On iPhone, tap **More ▸ Select Games** (or press and hold a game and choose **Select**), tick the games, then tap
+On iPhone or iPad, tap **More ▸ Select Games** (or press and hold a game and choose **Select**), tick the games, then tap
 **Change**. On Mac, select the games and right-click. You can set their status, interest level and platform. Games
 that already have a platform, or are not on the one you pick, are left alone, and the app tells you which. **Recent
 Changes** can undo it for three days.
@@ -76,7 +76,7 @@ Play Next shows a game only when someone who hasn't played it has set an interes
 and it appears. A note on the screen says how many games were left out.
 
 **A friend sent me their list as a CSV or JSON file. How do I open it?**
-On iPhone, tap the file in Messages or Files, then choose share and **Pixel In Waiting**. On Mac,
+On iPhone or iPad, tap the file in Messages or Files, then choose share and **Pixel In Waiting**. On Mac,
 right-click the file in Finder and choose **Open With ▸ Pixel In Waiting**. The app opens the same
 import screen as in Settings, so you can see what will be added first; **Cancel** adds nothing.
 A list from another copy of the app starts on **Restore missing only**, so games you already have are
@@ -101,7 +101,7 @@ is very busy, the app shows placeholders and fills them in later.
 you open a game. Your library is not touched.
 
 **How do I turn release-day reminders on or off?**
-**Settings ▸ Release reminders ▸ Remind me on release day.** Turning it on asks your Mac or iPhone for permission to show notifications. If you said no, allow Pixel In Waiting in System Settings ▸ Notifications and try again. You get one notification at 9 AM on the day a game on your Upcoming list comes out, and only for games with an exact date. Tap it to open the game. Turning the switch off removes them.
+**Settings ▸ Release reminders ▸ Remind me on release day.** Turning it on asks your Mac, iPhone or iPad for permission to show notifications. If you said no, allow Pixel In Waiting in System Settings ▸ Notifications and try again. You get one notification at 9 AM on the day a game on your Upcoming list comes out, and only for games with an exact date. Tap it to open the game. Turning the switch off removes them.
 
 **The sync line says "Another device just changed a game. Syncing again…"**
 Two of your devices changed the same game at about the same time. The app syncs again by itself; nothing is lost. If it stays on that line, open the app on the other device and try **Sync Now** in **Settings ▸ iCloud**.

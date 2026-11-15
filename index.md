@@ -7,7 +7,7 @@ title: "Pixel In Waiting"
 
 **Your game backlog and play history, in one place.**
 
-Pixel In Waiting is a Mac and iPhone app for keeping track of the video games you have played
+Pixel In Waiting is a Mac, iPhone and iPad app for keeping track of the video games you have played
 or want to play. It remembers what you have finished, and helps you decide what to pick up
 next.
 
@@ -26,12 +26,12 @@ next.
 - **Advanced import.** Import play time, dates and platforms from a documented JSON file, review what will change, and undo it in one step. Fix a game that was matched to the wrong edition afterwards with **Change Game**. See [Support](support/).
 - **Change many games at once.** Select several games and set their status, interest level or platform together, and choose a default platform in Settings so it fills in for you.
 - **Home at a glance.** What you are playing, upcoming releases on your wishlist, how many games you finished each year and what your friends played lately, all on one screen.
-- **Release-day reminders.** Optional, and off until you turn them on: a notification at 9 AM on the day a game on your Upcoming list comes out. They are made on your device. Press and hold the app icon on iPhone, or use the Dock menu on Mac, to jump to a game you are playing or to Add a Game.
+- **Release-day reminders.** Optional, and off until you turn them on: a notification at 9 AM on the day a game on your Upcoming list comes out. They are made on your device. Press and hold the app icon on iPhone or iPad, or use the Dock menu on Mac, to jump to a game you are playing or to Add a Game.
 - **Share with friends.** Invite friends with a private link. You see each other's libraries,
   and a friend can add a game to yours. See which of their games you don't have yet. Only
   people you invite can see anything.
 - **Your devices stay in step.** Your library lives in your own iCloud account and syncs
-  between your Mac and iPhone. It works offline too.
+  between your Mac, iPhone and iPad. It works offline too.
 - **Your data is yours.** Export your library as CSV or JSON whenever you like, import a list
   you already have (a CSV or JSON file opens straight from Messages or Files), undo removals for
   three days, and delete everything from inside the app.
@@ -44,7 +44,7 @@ Read the full [Privacy Policy](privacy/).
 
 ## Requirements
 
-A Mac with macOS 27 or later, or an iPhone with iOS 27 or later. iCloud is needed for syncing
+A Mac with macOS 27 or later, or an iPhone or iPad with iOS 27 or iPadOS 27 or later. iCloud is needed for syncing
 and for sharing with friends.
 
 ## Why I built it
