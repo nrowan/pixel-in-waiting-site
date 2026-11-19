@@ -39,7 +39,8 @@ next.
 ## Privacy
 
 No account, no ads, no tracking. Your library is kept on your devices and in your own iCloud.
-A small server of mine looks up game details by game ID and keeps no record of what was asked.
+A small server of mine looks up game details by game ID, and PlayStation prices for your Wishlist if you turn on
+optional price tracking. It keeps no log of what was asked or who asked.
 Read the full [Privacy Policy](privacy/).
 
 ## Requirements
