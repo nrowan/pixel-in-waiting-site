@@ -109,7 +109,7 @@ Two of your devices changed the same game at about the same time. The app syncs 
 **Where does my data live?**
 Your library is on your device and in your own iCloud account. Game details and covers from IGDB are
 looked up through a small server and saved only on your device, apart from a few facts per game (its three times to beat
-and game modes) that also sit in your private iCloud. If you turn on the optional **Price tracking** in Settings, the
+and game modes) that also sit in your private iCloud. Unless you turn off **Price tracking** in Settings (it is on by default), the
 names of the games on your Wishlist are also sent to that server to look up PlayStation Store prices. The server keeps
 each game's prices, never who asked or which games you have, and your copy of the prices stays on your device. See the
 [Privacy Policy](../privacy/).
