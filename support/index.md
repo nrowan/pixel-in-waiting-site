@@ -100,6 +100,19 @@ Press and hold the cover for the same list, **Select** and **Show Details**. A n
 **Share…** to put the game on a friend's list. To add several games, tap **Select**, tap the covers, then **Add**, or
 open its menu to add them all as one status. Once a game is yours, tap its status icon to change it.
 
+**What are the blue picks at the top of Play Next?**
+Suggestions based on games you have played. **Like your favorites** is a game already in your library that IGDB lists
+as similar to a game you played and rated highly, and **You might like** is a well-reviewed game you don't have yet,
+with a **+** that adds it to your Wishlist. Each says why it was picked, for example "Because you played Hades". Recent,
+highly rated games count the most, and a game's critics' score pushes it up. A game you marked Not Interested never
+appears. Suggestions for games outside your library need **Settings ▸ Game data ▸ Game data for games outside my
+library**. Nothing new about you is sent: the app asks for the same game facts it already uses.
+
+**What does "What do you feel like?" do?**
+It is a button on Play Next that narrows the suggestions. Pick a game you want something like, or skip that, then
+single-player or multiplayer, and how long you want to play. You get a list of matching games, each with the reason it
+was picked.
+
 **How do I search for a game?**
 Open **Add a Game** and start typing a title. When you pause, and have typed at least three letters, the app searches by
 itself and shows the results. For a shorter title, press Return or tap the **Search** button that appears. The lists
