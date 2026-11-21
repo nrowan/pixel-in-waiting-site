@@ -13,7 +13,7 @@ next.
 
 ## What it does
 
-- **Find and add games.** Search released and upcoming games as you type (from three letters) and add them to your library.
+- **Find and add games.** Search released and upcoming games as you type (from three letters). Tap a cover to see the game, tap + to add it, or select several and add them together.
 - **Covers and details.** Cover art, how long a game takes to beat, its game modes and ratings,
   from IGDB, plus lists in Add a Game of what is popular, new and coming soon.
 - **Track and rate.** Mark each game Upcoming, Wishlist, Owned, Playing, Ongoing, Played or Abandoned.

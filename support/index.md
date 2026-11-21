@@ -93,6 +93,13 @@ version older than 3.1.0 skips an Ongoing game until it is updated.
 Your iCloud library holds games that a newer version of the app added, for example one marked Ongoing or Not
 Interested. Update the app on this device to see them. Nothing is lost.
 
+**How do I add games?**
+In **Add a Game**, tap a cover to see the game. Tap the **+** on its cover to add it now with the default status
+(Wishlist, or Upcoming if it is not out yet), or press and hold the **+** (right-click on Mac) to pick another status.
+Press and hold the cover for the same list, **Select** and **Show Details**. A note at the bottom has **Undo**, and
+**Share…** to put the game on a friend's list. To add several games, tap **Select**, tap the covers, then **Add**, or
+open its menu to add them all as one status. Once a game is yours, tap its status icon to change it.
+
 **How do I search for a game?**
 Open **Add a Game** and start typing a title. When you pause, and have typed at least three letters, the app searches by
 itself and shows the results. For a shorter title, press Return or tap the **Search** button that appears. The lists
