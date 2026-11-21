@@ -13,15 +13,20 @@ next.
 
 ## What it does
 
-- **Find and add games.** Search released and upcoming games and add them to your library.
+- **Find and add games.** Search released and upcoming games as you type (from three letters) and add them to your library.
 - **Covers and details.** Cover art, how long a game takes to beat, its game modes and ratings,
   from IGDB, plus lists in Add a Game of what is popular, new and coming soon.
-- **Track and rate.** Mark each game Upcoming, Wishlist, Owned, Playing, Played or Abandoned.
-  Add a rating, how interested you are, a review, why you want to play it, and the dates and
-  platform you played it on.
+- **Track and rate.** Mark each game Upcoming, Wishlist, Owned, Playing, Ongoing, Played or Abandoned.
+  Ongoing is for a game you keep playing and never finish. Add a rating, how interested you are (or
+  that you are not interested), a review, why you want to play it, and the dates and platform you
+  played it on.
 - **Decide what to play next.** Sort, search and filter your library by length, modes and rating,
   and see Play Next picks based on what you are keen on, how long a game takes and whether it
-  is co-op.
+  is co-op. Every game you could play shows up, with or without an interest level, and a game you
+  are not interested in stays out of your way.
+- **Price tracking.** The PlayStation Store price, in US dollars, of the games on your Wishlist: under
+  each title, with new lows and deals on Home, and every edition's price on the game's page. It is on by
+  default and you can turn it off in Settings.
 - **Every platform you own a game on.** A game lists each platform you own it on, with how you have it, its own started and ended days and its hours. Friends you share with can see them.
 - **Advanced import.** Import play time, dates and platforms from a documented JSON file, review what will change, and undo it in one step. Fix a game that was matched to the wrong edition afterwards with **Change Game**. See [Support](support/).
 - **Change many games at once.** Select several games and set their status, interest level or platform together, and choose a default platform in Settings so it fills in for you.

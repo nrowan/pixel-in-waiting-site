@@ -72,8 +72,38 @@ that already have a platform, or are not on the one you pick, are left alone, an
 Changes** can undo it for three days.
 
 **Why is a game missing from Play Next?**
-Play Next shows a game only when someone who hasn't played it has set an interest level. Set one on the game's page
-and it appears. A note on the screen says how many games were left out.
+Play Next shows every game that someone you picked could play now: Playing, Ongoing, Owned, Wishlist or Upcoming. An
+interest level is not needed, and games with one come first. A game is left out when you have played or abandoned it,
+or when everyone who could play it has marked it **Not Interested**.
+
+**How do I tell the app I am not interested in a game?**
+On the game's page, tap the **⊘** before the ten flames in **My Interest** (tap it again to clear it). You can also
+press and hold a game on iPhone or iPad, or right-click it on Mac, and choose **Interest Level ▸ Not Interested**,
+including on Play Next. It sets the interest to 0: the game leaves your Play Next unless a friend still wants it, and
+then your circle shows a cancel sign. Friends you share with see it like the rest of your library. A version older
+than 3.1.0 skips a game marked this way until it is updated.
+
+**What is Ongoing?**
+A status for a game you keep playing and never finish, like an online or endless game. Choose it from the game's
+**Status**. It has a start day and no end day, stays in **Not Played** and **Play Next** so you are offered it again,
+shows in Playing now, and does not count in your played numbers. Mark it Played or Abandoned whenever you are done. A
+version older than 3.1.0 skips an Ongoing game until it is updated.
+
+**A banner says some games can't be read by this version of the app.**
+Your iCloud library holds games that a newer version of the app added, for example one marked Ongoing or Not
+Interested. Update the app on this device to see them. Nothing is lost.
+
+**How do I search for a game?**
+Open **Add a Game** and start typing a title. When you pause, and have typed at least three letters, the app searches by
+itself and shows the results. For a shorter title, press Return or tap the **Search** button that appears. The lists
+under the search box (popular, new, coming soon) are there until you search.
+
+**How does price tracking work?**
+**Settings ▸ Price tracking ▸ Track prices.** It is on by default. The app looks up the PlayStation Store price, in US
+dollars, of the games on your Wishlist through the developer's server, which is sent only those games' IGDB names.
+Prices show under titles, on Home's Wishlist deals tile and in a Pricing section on the game's page. Pick PS5 or PS4
+as the platform. Turn the switch off to stop lookups. Your copy of the prices stays on your device, and **Delete All My
+Data** removes it.
 
 **A friend sent me their list as a CSV or JSON file. How do I open it?**
 On iPhone or iPad, tap the file in Messages or Files, then choose share and **Pixel In Waiting**. On Mac,
