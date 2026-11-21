@@ -5,7 +5,7 @@ title: "Pixel In Waiting — Privacy Policy"
 
 # Pixel In Waiting — Privacy Policy
 
-_Effective 2026-11-18_
+_Effective 2026-11-20_
 
 Pixel In Waiting is an app for Mac, iPhone and iPad that tracks video games you have played or want
 to play. It is made by Nate Rowan, one person. This page says what happens to your data.
@@ -13,9 +13,9 @@ to play. It is made by Nate Rowan, one person. This page says what happens to yo
 **The short version:** your game list belongs to you. The developer has no accounts, no
 analytics and keeps no copy of your library, notes or ratings. To show covers and game
 details, the developer runs a small Cloudflare Worker that passes the app's requests on to IGDB.
-It keeps no record of who asks for what. If you turn on the optional **Price tracking**, the same
-server also looks up PlayStation Store prices for the games on your Wishlist; it keeps those
-games and their prices, never who asked.
+It keeps no record of who asks for what. **Price tracking** is on unless you turn it off in
+Settings: the same server then looks up PlayStation Store prices for the games on your Wishlist;
+it keeps those games and their prices, never who asked.
 
 ## What the app stores
 
@@ -29,7 +29,7 @@ games and their prices, never who asked.
   shortened IDs, and friends' names), on your device only. It is shown in TestFlight builds and
   never leaves your device unless you send it (see **Support info**).
 - **Release-day reminders (optional, off until you turn them on).** If you switch on **Settings ▸ Release reminders**, the app asks your Mac, iPhone or iPad for permission to show notifications and then schedules a local notification for 9 AM on the day each game on your Upcoming list comes out. They are made and shown on your device; nothing about them is sent to the developer, to Apple's push service or to anyone else. Turning the switch off, or Delete All My Data, removes them.
-- **Prices (optional, off until you turn it on).** If you switch on **Settings ▸ Price tracking**, the app keeps a copy of the PlayStation Store prices for the games on your Wishlist, in one file on your device. It is not synced to iCloud or backed up, and **Delete All My Data** removes it. Turning the switch off stops new lookups.
+- **Prices (on unless you turn it off).** Unless you switch off **Settings ▸ Price tracking**, the app keeps a copy of the PlayStation Store prices for the games on your Wishlist, in one file on your device. It is not synced to iCloud or backed up, and **Delete All My Data** removes it. Turning the switch off stops new lookups.
 - **A short history of removals, imports and changes,** such as switching a game to a different
   edition with **Change Game**, on your device only, for undoing them for three days.
 - **Game facts and pictures from IGDB,** on your device only: covers, screenshots, time to
@@ -71,7 +71,7 @@ this off in **Settings ▸ Data saving**, and Delete All My Data removes them.
   (store.steampowered.com) whether a game carries adult content labels, by the game's Steam number
   only, and keeps a list of game numbers marked adult or not, which also belongs to no one. Nothing
   about you is sent to Steam; the server's address is what Steam sees.
-- **Prices for your Wishlist (optional, off until you turn it on):** with **Price tracking** on, the
+- **Prices for your Wishlist (on unless you turn it off in Settings ▸ Price tracking):** with **Price tracking** on, the
   app sends the same small server the IGDB web names of the games on your Wishlist (such as
   "elden-ring"), which of them it has no prices for yet, and the time of the server's last answer.
   The server finds each game on the PlayStation Store, reads its prices, and sends back every
@@ -175,6 +175,7 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-11-13 | Described the platforms you can record on a game (how you have it, days and hours), which friends you share with can see; the advanced import, which reads a JSON file you choose on your device and sends none of its contents anywhere (the app asks Wikidata and the developer's server for each game by its ID, as it does for any game); and Change Game, which switches a game to a different edition and is kept in the undo history. Nothing new is collected, and the App Store privacy label stays "Data Not Collected". |
 | 2026-11-15 | Said the app is also for iPad. Nothing new is collected or shared; an iPad works like an iPhone, and the App Store privacy label stays "Data Not Collected". |
 | 2026-11-18 | Described the optional Price tracking, off until you turn it on: with it on, the app sends the developer's server the IGDB web names of the games on your Wishlist, and the server reads their PlayStation Store prices. It keeps each game's prices and when anyone last asked about it (forgetting a game after 90 days), never a log of requests, your list or who asked. The copy of prices on your device is removed by Delete All My Data. Nothing is sent unless you switch it on. |
+| 2026-11-20 | Price tracking is now on unless you turn it off in Settings ▸ Price tracking (it was off until you turned it on). Nothing about what is sent or kept changed: the IGDB web names of the games on your Wishlist go to the developer's server, which keeps each game's prices and when anyone last asked, never who asked. Someone who had already chosen keeps their choice. |
 
 ## Contact
 
