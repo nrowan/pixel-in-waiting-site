@@ -90,8 +90,10 @@ shows in Playing now, and does not count in your played numbers. Mark it Played 
 version older than 3.1.0 skips an Ongoing game until it is updated.
 
 **A banner says some games can't be read by this version of the app.**
-Your iCloud library holds games that a newer version of the app added, for example one marked Ongoing or Not
-Interested. Update the app on this device to see them. Nothing is lost.
+Tap the banner to see which games and why. Most often your iCloud library holds games that a newer version of the app
+added, for example one marked Ongoing or Not Interested, and updating the app on this device shows them. If the reason
+says the data is missing or damaged, an update won't change it: send Settings ▸ Support Info, which lists the same
+reasons, to the developer. Nothing is lost.
 
 **How do I search for a game?**
 Open **Add a Game** and start typing a title. When you pause, and have typed at least three letters, the app searches by
