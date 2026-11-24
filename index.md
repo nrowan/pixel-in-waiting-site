@@ -21,8 +21,9 @@ next.
   that you are not interested), a review, why you want to play it, and the dates and platform you
   played it on.
 - **Decide what to play next.** Sort, search and filter your library by length, modes and rating,
-  and see Play Next picks based on what you are keen on, how long a game takes and whether it
-  is co-op. Every game you could play shows up, with or without an interest level, and a game you
+  with Select All in each filter. Play Next shows a few Best Picks, such as the one people want most,
+  the critics' favorite and the newest game you added that you are keen on, and **What do you feel like?**
+  narrows suggestions by who is playing and how long a game takes. Every game you could play shows up, with or without an interest level, and a game you
   are not interested in stays out of your way.
 - **Price tracking.** The PlayStation Store price, in US dollars, of the games on your Wishlist: under
   each title, with new lows and deals on Home, and every edition's price on the game's page. It is on by
@@ -30,7 +31,7 @@ next.
 - **Every platform you own a game on.** A game lists each platform you own it on, with how you have it, its own started and ended days and its hours. Friends you share with can see them.
 - **Advanced import.** Import play time, dates and platforms from a documented JSON file, review what will change, and undo it in one step. Fix a game that was matched to the wrong edition afterwards with **Change Game**. See [Support](support/).
 - **Change many games at once.** Select several games and set their status, interest level or platform together, and choose a default platform in Settings so it fills in for you.
-- **Home at a glance.** What you are playing, upcoming releases on your wishlist, how many games you finished each year and what your friends played lately, all on one screen.
+- **Home at a glance.** What you are playing, upcoming releases on your wishlist, how many games you finished each year and what your friends played lately, all on one screen. Reorder or hide the tiles with **Customize Home**.
 - **Release-day reminders.** Optional, and off until you turn them on: a notification at 9 AM on the day a game on your Upcoming list comes out. They are made on your device. Press and hold the app icon on iPhone or iPad, or use the Dock menu on Mac, to jump to a game you are playing or to Add a Game.
 - **Share with friends.** Invite friends with a private link. You see each other's libraries,
   and a friend can add a game to yours. See which of their games you don't have yet. Only
