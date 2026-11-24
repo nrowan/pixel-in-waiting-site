@@ -41,7 +41,7 @@ remove them from your list.
 can include **Platforms Owned On**, and restoring that file brings the platforms back.
 
 **Which platform did I play a game on? Can I own it on more than one?**
-Open the game and look at **Platforms you own it on** in the Your Game card. **Add** a platform, then set how you
+Open the game and look at **You own it on** in the Your Game card. Choose **Add a platform**, then set how you
 have it (purchased or subscription), its started and ended days and its hours. Each platform keeps its own days and
 hours, and the game keeps one status. The platform marked **Platform Played** is the one the game's own Started and
 Ended days follow. Friends you share with can see these platforms.
@@ -70,6 +70,17 @@ On iPhone or iPad, tap **More ▸ Select Games** (or press and hold a game and c
 **Change**. On Mac, select the games and right-click. You can set their status, interest level and platform. Games
 that already have a platform, or are not on the one you pick, are left alone, and the app tells you which. **Recent
 Changes** can undo it for three days.
+
+**Can I change what Home shows?**
+Yes. At the bottom of Home, choose **Customize Home** (also in **Settings ▸ Customize Home…**). Drag the tiles to
+reorder them, switch one off to hide it, or choose **Reset** to go back. The layout is saved on that device only.
+
+**What are the Best Picks on Play Next?**
+Up to five cards, each a different game: **Best pick** (what people want most), **Critics' choice**, **New and
+wanted**, **Recently bought** (the Owned game you added most recently, have not started and rate 7 or higher; the
+date is when you added it) and **Best wishlist pick**. A game on your Wishlist appears only in the last one: a sale
+of 30% or more on a game you rate 7 or higher or the critics score 80 or higher, otherwise the highest critic score.
+A card is left out when no game fits.
 
 **Why is a game missing from Play Next?**
 Play Next shows every game that someone you picked could play now: Playing, Ongoing, Owned, Wishlist or Upcoming. An
