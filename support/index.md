@@ -147,6 +147,13 @@ again; the app asks again when its saved details are a week old for a new game, 
 older one. **Settings ▸ Game data ▸ Refresh Game Data** asks again now, once an hour. If the data service
 is very busy, the app shows placeholders and fills them in later.
 
+**How do I see a game's pictures or trailer?**
+Open the game and tap (on Mac, click) a screenshot or the picture at the top to see up to ten pictures full screen. On
+iPhone and iPad, swipe between them, pinch to zoom, and swipe down or tap ✕ to close; on Mac, use the arrow keys and
+Esc. **Watch trailer** opens YouTube. It appears only when IGDB has a trailer for the game, and a game you opened
+before this version may not show it until its saved details are next refreshed (up to three months for an older game).
+Pictures need **Download artwork** on, and are hidden for games marked adult.
+
 **How do I clear the covers and details the app saved?**
 **Settings ▸ Game data ▸ Clear Cached Game Data.** They are saved only on your device and come back when
 you open a game. Your library is not touched.

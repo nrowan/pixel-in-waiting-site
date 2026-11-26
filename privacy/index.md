@@ -5,7 +5,7 @@ title: "Pixel In Waiting — Privacy Policy"
 
 # Pixel In Waiting — Privacy Policy
 
-_Effective 2026-11-20_
+_Effective 2026-11-26_
 
 Pixel In Waiting is an app for Mac, iPhone and iPad that tracks video games you have played or want
 to play. It is made by Nate Rowan, one person. This page says what happens to your data.
@@ -87,7 +87,8 @@ this off in **Settings ▸ Data saving**, and Delete All My Data removes them.
   Tapping an edition in the Pricing section opens its PlayStation Store page in your browser or the
   PlayStation app, which then see what any website sees.
 - **Pictures:** covers and screenshots are downloaded straight from IGDB's image servers, which,
-  like any website, see your IP address and which picture you asked for.
+  like any website, see your IP address and which picture you asked for. Viewing a picture full
+  screen downloads a larger copy the same way; the larger copy is not saved.
 - **Importing a file:** the advanced import reads a JSON file you choose, **on your device**. The
   file is never sent anywhere, and nothing in it is kept except the games you choose to add. To
   find each game the app asks Wikidata for it by the game's ID, and, like any game you add, asks
@@ -95,7 +96,8 @@ this off in **Settings ▸ Data saving**, and Delete All My Data removes them.
   achievements in the file are not sent. The file holds no name, email or account details, and
   the app does not read any that a file might carry.
 - **Links you open:** buttons such as *Where to Buy* open a store or reference website in
-  your browser. Those sites have their own privacy policies, and the app sends them nothing
+  your browser, and *Watch trailer* opens the game's video on YouTube (in your browser or the
+  YouTube app). Those sites have their own privacy policies, and the app sends them nothing
   but the address you opened.
 - **iCloud:** syncing and sharing go through Apple's iCloud under Apple's own terms and
   [privacy policy](https://www.apple.com/legal/privacy/).
@@ -176,6 +178,7 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-11-15 | Said the app is also for iPad. Nothing new is collected or shared; an iPad works like an iPhone, and the App Store privacy label stays "Data Not Collected". |
 | 2026-11-18 | Described the optional Price tracking, off until you turn it on: with it on, the app sends the developer's server the IGDB web names of the games on your Wishlist, and the server reads their PlayStation Store prices. It keeps each game's prices and when anyone last asked about it (forgetting a game after 90 days), never a log of requests, your list or who asked. The copy of prices on your device is removed by Delete All My Data. Nothing is sent unless you switch it on. |
 | 2026-11-20 | Price tracking is now on unless you turn it off in Settings ▸ Price tracking (it was off until you turned it on). Nothing about what is sent or kept changed: the IGDB web names of the games on your Wishlist go to the developer's server, which keeps each game's prices and when anyone last asked, never who asked. Someone who had already chosen keeps their choice. |
+| 2026-11-26 | Described viewing a game's pictures full screen (a larger copy comes from IGDB's image servers and is not saved) and the Watch trailer button, which opens YouTube. Nothing new is collected by the developer, and the App Store privacy label stays "Data Not Collected". |
 
 ## Contact
 

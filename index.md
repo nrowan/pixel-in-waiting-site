@@ -15,7 +15,8 @@ next.
 
 - **Find and add games.** Search released and upcoming games as you type (from three letters) and add them to your library.
 - **Covers and details.** Cover art, how long a game takes to beat, its game modes and ratings,
-  from IGDB, plus lists in Add a Game of what is popular, new and coming soon.
+  from IGDB, plus lists in Add a Game of what is popular, new and coming soon. See a game's pictures
+  full screen and watch its trailer on YouTube.
 - **Track and rate.** Mark each game Upcoming, Wishlist, Owned, Playing, Ongoing, Played or Abandoned.
   Ongoing is for a game you keep playing and never finish. Add a rating, how interested you are (or
   that you are not interested), a review, why you want to play it, and the dates and platform you
