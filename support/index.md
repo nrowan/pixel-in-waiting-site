@@ -72,8 +72,14 @@ that already have a platform, or are not on the one you pick, are left alone, an
 Changes** can undo it for three days.
 
 **Can I change what Home shows?**
-Yes. At the bottom of Home, choose **Customize Home** (also in **Settings ▸ Customize Home…**). Drag the tiles to
-reorder them, switch one off to hide it, or choose **Reset** to go back. The layout is saved on that device only.
+Yes. Tap the slider icon at the top of Home, beside your profile picture (also in **Settings ▸ Customize Home…**).
+Drag the tiles to reorder them, switch one off to hide it, or choose **Reset** to go back. The layout is saved on that
+device only.
+
+**Can I change what Play Next shows?**
+Yes, the same way: tap the slider icon at the top of Play Next (also in **Settings ▸ Customize Play Next…**). Every
+section can be moved or hidden, including **Who's playing** and the list of games. The layout is saved on that device
+only.
 
 **What are the Best Picks on Play Next?**
 Up to five cards, each a different game: **Best pick** (what people want most), **Critics' choice**, **New and
@@ -83,9 +89,11 @@ of 30% or more on a game you rate 7 or higher or the critics score 80 or higher,
 A card is left out when no game fits.
 
 **Why is a game missing from Play Next?**
-Play Next shows every game that someone you picked could play now: Playing, Ongoing, Owned, Wishlist or Upcoming. An
-interest level is not needed, and games with one come first. A game is left out when you have played or abandoned it,
-or when everyone who could play it has marked it **Not Interested**.
+Play Next shows every game that someone you picked could play now: Playing, Ongoing, Owned or Wishlist. An interest
+level is not needed, and games with one come first. A game that is not out yet, or comes out more than two weeks from
+now, is in **Coming Soon** instead (soonest first; a game with no date is last). A game is left out when you have
+played or abandoned it, or when everyone who could play it has marked it **Not Interested**. If you hid a section in
+**Customize Play Next**, its games are not shown.
 
 **How do I tell the app I am not interested in a game?**
 On the game's page, tap the **⊘** before the ten flames in **My Interest** (tap it again to clear it). You can also

@@ -24,7 +24,8 @@ next.
   with Select All in each filter. Play Next shows a few Best Picks, such as the one people want most,
   the critics' favorite and the newest game you added that you are keen on, and **What do you feel like?**
   narrows suggestions by who is playing and how long a game takes. Every game you could play shows up, with or without an interest level, and a game you
-  are not interested in stays out of your way.
+  are not interested in stays out of your way. Games that are not out yet wait in **Coming Soon**, and **Customize
+  Play Next** reorders or hides its sections.
 - **Price tracking.** The PlayStation Store price, in US dollars, of the games on your Wishlist: under
   each title, with new lows and deals on Home, and every edition's price on the game's page. It is on by
   default and you can turn it off in Settings.
