@@ -5,7 +5,7 @@ title: "Pixel In Waiting — Privacy Policy"
 
 # Pixel In Waiting — Privacy Policy
 
-_Effective 2026-11-26_
+_Effective 2026-11-27_
 
 Pixel In Waiting is an app for Mac, iPhone and iPad that tracks video games you have played or want
 to play. It is made by Nate Rowan, one person. This page says what happens to your data.
@@ -59,7 +59,9 @@ this off in **Settings ▸ Sync & Storage**, and Delete All My Data removes them
   owned by Twitch. When the app needs a game's cover, time to beat, modes or ratings, it asks a
   small server run by the developer (hosted by Cloudflare), by the game's ID or web name. This
   happens for the games in your library when the app opens, for a game you open, and for the
-  games shown in Add a Game's lists, in search results and in a friend's library. The server
+  games shown in Add a Game's lists, in search results, in a friend's library and in the games
+  suggested to you. If you pick a genre when asking for a game to play, the app asks the server for
+  the best games of that genre, by the genre's name only. The server
   passes the question on to IGDB with the developer's own access key and sends the answer back.
   **Not sent:** the words you search for (searching stays with Wikidata), your name, your
   account, your notes, ratings or play status. The request also carries a key that is the same in
@@ -180,6 +182,7 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-11-20 | Price tracking is now on unless you turn it off in Settings ▸ Prices (it was off until you turned it on). Nothing about what is sent or kept changed: the IGDB web names of the games on your Wishlist go to the developer's server, which keeps each game's prices and when anyone last asked, never who asked. Someone who had already chosen keeps their choice. |
 | 2026-11-26 | Described viewing a game's pictures full screen (a larger copy comes from IGDB's image servers and is not saved) and the Watch trailer button, which opens YouTube. Nothing new is collected by the developer, and the App Store privacy label stays "Data Not Collected". |
 | 2026-11-26 | Updated the Settings paths for the new Settings layout (Notifications, Prices, Sync & Storage, Your Games, About & Help). Nothing about what is collected, sent or kept changed. |
+| 2026-11-27 | "What do you feel like?" can search by genre: the app asks the developer's server for the best games of the genre you pick, naming only the genre. Said that games suggested to you have their details fetched too. Nothing about you is sent or kept. |
 
 ## Contact
 
