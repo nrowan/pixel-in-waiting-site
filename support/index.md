@@ -5,8 +5,8 @@ title: "Pixel In Waiting — Support"
 
 # Pixel In Waiting — Support
 
-Pixel In Waiting is made by one person, Nate Rowan. If something is not working or you have
-a question, email **naterowandev@gmail.com**. I read every message.
+Pixel In Waiting is made by one person, Nate Rowan. If something is not working, you have
+a question or you have an idea to make the app better, email **naterowandev@gmail.com**. I read every message.
 
 ## Getting help with a problem
 
@@ -86,7 +86,8 @@ Up to five cards, each a different game: **Best pick** (what people want most), 
 wanted**, **Recently bought** (the Owned game you added most recently, have not started and rate 7 or higher; the
 date is when you added it) and **Best wishlist pick**. A game on your Wishlist appears only in the last one: a sale
 of 30% or more on a game you rate 7 or higher or the critics score 80 or higher, otherwise the highest critic score.
-A card is left out when no game fits.
+A card is left out when no game fits. When other games are nearly as good as a card's pick, they sit beside it, up
+to five in all; scroll sideways to see them.
 
 **Why is a game missing from Play Next?**
 Play Next shows every game that someone you picked could play now: Playing, Ongoing, Owned or Wishlist. An interest
@@ -146,6 +147,10 @@ The details come from IGDB, which does not know every game. Check you are online
 again; the app asks again when its saved details are a week old for a new game, or three months for an
 older one. **Settings ▸ Sync & Storage ▸ Refresh Game Data** asks again now, once an hour. If the data service
 is very busy, the app shows placeholders and fills them in later.
+
+**Can I read more about a review score?**
+On a game's page, a score with an arrow opens that site's page for the game in your browser (Metacritic, OpenCritic
+or IGDB). A score with no arrow has no page the app knows of.
 
 **How do I see a game's pictures or trailer?**
 Open the game and tap (on Mac, click) a screenshot or the picture at the top to see up to ten pictures full screen. On
