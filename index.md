@@ -13,43 +13,21 @@ next.
 
 ## What it does
 
-- **Find and add games.** Search released and upcoming games as you type (from three letters) and add them to your library.
-- **Covers and details.** Cover art, how long a game takes to beat, its game modes and ratings,
-  from IGDB, plus lists in Add a Game of what is popular, new and coming soon. See a game's pictures
-  full screen and watch its trailer on YouTube.
-- **Track and rate.** Mark each game Upcoming, Wishlist, Owned, Playing, Ongoing, Played or Abandoned.
-  Ongoing is for a game you keep playing and never finish. Add a rating, how interested you are (or
-  that you are not interested), a review, why you want to play it, and the dates and platform you
-  played it on.
-- **Decide what to play next.** Sort, search and filter your library by length, modes and rating,
-  with Select All in each filter. Play Next shows a few Best Picks, such as the one people want most,
-  the critics' favorite and the newest game you added that you are keen on, and **What do you feel like?**
-  narrows picks from games you own, your wishlist or games you don't have by who is playing, how long a game takes and its genre. Every game you could play shows up, with or without an interest level, and a game you
-  are not interested in stays out of your way. Games that are not out yet wait in **Coming Soon**, and **Customize
-  Play Next** reorders or hides its sections.
-- **Price tracking.** The PlayStation Store price, in US dollars, of the games on your Wishlist: under
-  each title, with new lows and deals on Home, and every edition's price on the game's page. It is on by
-  default and you can turn it off in Settings.
-- **Every platform you own a game on.** A game lists each platform you own it on, with how you have it, its own started and ended days and its hours. Friends you share with can see them.
-- **Advanced import.** Import play time, dates and platforms from a documented JSON file, review what will change, and undo it in one step. Fix a game that was matched to the wrong edition afterwards with **Change Game**. See [Support](support/).
-- **Change many games at once.** Select several games and set their status, interest level or platform together, and choose a default platform in Settings so it fills in for you.
-- **Home at a glance.** What you are playing, upcoming releases on your wishlist, how many games you finished each year and what your friends played lately, all on one screen. Reorder or hide the tiles with **Customize Home**.
-- **Release-day reminders.** Optional, and off until you turn them on: a notification at 9 AM on the day a game on your Upcoming list comes out. They are made on your device. Press and hold the app icon on iPhone or iPad, or use the Dock menu on Mac, to jump to a game you are playing or to Add a Game.
-- **Share with friends.** Invite friends with a private link. You see each other's libraries,
-  and a friend can add a game to yours. See which of their games you don't have yet. Only
-  people you invite can see anything.
-- **Your devices stay in step.** Your library lives in your own iCloud account and syncs
-  between your Mac, iPhone and iPad. It works offline too.
-- **Your data is yours.** Export your library as CSV or JSON whenever you like, import a list
-  you already have (a CSV or JSON file opens straight from Messages or Files), undo removals for
-  three days, and delete everything from inside the app.
+- **Keep your games in one place.** Search released and upcoming games, add them to your library, and mark what you
+  are playing, have played or want to play, with your own rating and notes.
+- **Decide what to play next.** Sort and filter your library, get suggestions based on what you have played, and ask
+  for games that suit your mood.
+- **See the details.** Cover art, pictures, how long a game takes to beat and what critics think.
+- **Watch for releases and deals.** See what is coming up, get an optional reminder on release day, and track
+  PlayStation Store prices for your Wishlist.
+- **Share with friends.** Invite friends privately and see what each other is playing.
+- **Your data is yours.** Your library syncs through your own iCloud, works offline, and can be imported, exported or
+  deleted at any time.
 
 ## Privacy
 
-No account, no ads, no tracking. Your library is kept on your devices and in your own iCloud.
-A small server of mine looks up game details by game ID, and PlayStation prices for your Wishlist (price tracking is on
-unless you turn it off in Settings). It keeps no log of what was asked or who asked.
-Read the full [Privacy Policy](privacy/).
+No account, no ads, no tracking. Your library stays on your devices and in your own iCloud. The few things that are
+sent or kept are listed in the [Privacy Policy](privacy/).
 
 ## Requirements
 
