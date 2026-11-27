@@ -147,13 +147,6 @@ again; the app asks again when its saved details are a week old for a new game, 
 older one. **Settings ▸ Game data ▸ Refresh Game Data** asks again now, once an hour. If the data service
 is very busy, the app shows placeholders and fills them in later.
 
-**Is there a calendar of the games I played?**
-Yes. In **My Games**, tap the calendar button at the top. Each month shows a game's cover on the days you started,
-ended or last played it, with a line between the start and the end (or the last played day). The app keeps only those
-days, not every day you played, so a line means "somewhere in this stretch". A line that runs into or past the month
-has an arrow at that end. Tap a day to see its games. Use the arrows (or swipe) to change month, or tap the month's
-name to pick a month and year. When My Games shows a friend's list, the calendar shows theirs.
-
 **How do I see a game's pictures or trailer?**
 Open the game and tap (on Mac, click) a screenshot or the picture at the top to see up to ten pictures full screen. On
 iPhone and iPad, swipe between them, pinch to zoom, and swipe down or tap ✕ to close; on Mac, use the arrow keys and
