@@ -5,154 +5,69 @@ title: "Pixel In Waiting — Privacy Policy"
 
 # Pixel In Waiting — Privacy Policy
 
-_Effective 2026-11-20_
+_Effective 2026-11-27_
 
-Pixel In Waiting is an app for Mac, iPhone and iPad that tracks video games you have played or want
-to play. It is made by Nate Rowan, one person. This page says what happens to your data.
+Pixel In Waiting is an app for Mac, iPhone and iPad that tracks video games you have played or want to play. It is
+made by Nate Rowan, one person. This page says what happens to your data.
 
-**The short version:** your game list belongs to you. The developer has no accounts, no
-analytics and keeps no copy of your library, notes or ratings. To show covers and game
-details, the developer runs a small Cloudflare Worker that passes the app's requests on to IGDB.
-It keeps no record of who asks for what. **Price tracking** is on unless you turn it off in
-Settings: the same server then looks up PlayStation Store prices for the games on your Wishlist;
-it keeps those games and their prices, never who asked.
+**The short version:** your game list belongs to you. There are no accounts, no ads, no analytics, no tracking and no
+third-party software that collects data about you. The developer keeps no copy of your library, notes or ratings.
 
-## What the app stores
+## What is kept outside your devices and iCloud
 
-- **Your library:** the games you add and what you record about them (status, rating,
-  interest, notes such as *Why Play It* and *My Review*, dates, platform played, and the
-  platforms you own a game on, each with how you have it, its days and its hours).
-- **Your settings and friends list** on your device.
-- **Copies of your friends' libraries,** on your device only, so you can browse them offline.
-  They are replaced when a friend stops sharing and are removed when you remove the friend.
-- **A short log of sharing events** (such as an invite sent or accepted, with times, counts and
-  shortened IDs, and friends' names), on your device only. It is shown in TestFlight builds and
-  never leaves your device unless you send it (see **Support info**).
-- **Release-day reminders (optional, off until you turn them on).** If you switch on **Settings ▸ Release reminders**, the app asks your Mac, iPhone or iPad for permission to show notifications and then schedules a local notification for 9 AM on the day each game on your Upcoming list comes out. They are made and shown on your device; nothing about them is sent to the developer, to Apple's push service or to anyone else. Turning the switch off, or Delete All My Data, removes them.
-- **Prices (on unless you turn it off).** Unless you switch off **Settings ▸ Price tracking**, the app keeps a copy of the PlayStation Store prices for the games on your Wishlist, in one file on your device. It is not synced to iCloud or backed up, and **Delete All My Data** removes it. Turning the switch off stops new lookups.
-- **A short history of removals, imports and changes,** such as switching a game to a different
-  edition with **Change Game**, on your device only, for undoing them for three days.
-- **Game facts and pictures from IGDB,** on your device only: covers, screenshots, time to
-  beat, game modes and ratings, kept so the app works offline and doesn't ask twice. They are
-  never synced, exported or shared. **Settings ▸ Game data ▸ Clear Cached Game Data** removes them.
+This is the whole list. The developer runs one small server (on Cloudflare) for game details and prices.
 
-On your device this is kept in the app's own storage. When iCloud sync is available, your
-library is also kept in **your own iCloud account** (Apple's CloudKit), so it can appear on
-your other devices. It is stored in your private iCloud and counts against your iCloud
-storage. The developer cannot read it; only your devices and the people you choose to share
-with (see below) can.
+- **A short-lived request count.** To stop abuse, the server counts requests per network (IP) address for up to an
+  hour. It keeps no log of what was asked or who asked.
+- **Prices, if price tracking is on** (it is on unless you turn it off in Settings). The app sends the names of the
+  games on your Wishlist. The server keeps each game's store listing, prices, price history and when anyone last asked
+  about it, and forgets a game 90 days after the last ask. It does not keep your list or who asked.
+- **Public information about games**, such as popular lists, which belongs to no one.
+- **What you choose to send the developer**, such as an email or a support report.
+- **Apple's reports.** If you install through TestFlight or the App Store, Apple may collect crash reports, usage and
+  feedback you choose to send, under Apple's terms, and passes some of it to the developer.
 
-Next to your library, your private iCloud also keeps a few facts about each game, taken from IGDB:
-its three times to beat (main story, main + extras and completionist) and its game modes. That lets your other devices show them without asking
-again. They are kept apart from the library you share, so friends cannot see them. You can turn
-this off in **Settings ▸ Data saving**, and Delete All My Data removes them.
+## What stays with you
+
+Your library (games, statuses, ratings, notes, dates, platforms and hours), your settings, friends' libraries shared
+with you, an undo history, a log of sharing events, and saved game details and pictures are kept on your device. With
+iCloud sync, your library and a few facts about each game are also kept in **your own iCloud account**, which the
+developer cannot read. Reminders are made on your device. Files you import are read on your device and are not sent
+anywhere.
 
 ## What the app sends over the internet
 
-- **Game search and details:** when you search for a game or open its details, the app asks
-  [Wikidata](https://www.wikidata.org) (run by the Wikimedia Foundation). The search text and
-  the game's ID are sent, and Wikidata, like any website, sees your device's IP address. The
-  app also tells Wikidata its own name and version, as Wikimedia's rules require. No name,
-  account or library is sent. See the
-  [Wikimedia Foundation Privacy Policy](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy).
-- **Game details, covers and lists (IGDB):** [IGDB](https://www.igdb.com) is a game database
-  owned by Twitch. When the app needs a game's cover, time to beat, modes or ratings, it asks a
-  small server run by the developer (hosted by Cloudflare), by the game's ID or web name. This
-  happens for the games in your library when the app opens, for a game you open, and for the
-  games shown in Add a Game's lists, in search results and in a friend's library. The server
-  passes the question on to IGDB with the developer's own access key and sends the answer back.
-  **Not sent:** the words you search for (searching stays with Wikidata), your name, your
-  account, your notes, ratings or play status. The request also carries a key that is the same in
-  every copy of that kind of build (it says "this is the app", not who you are). The server's
-  host, like any website, sees your device's IP address. The server keeps **no log of requests**.
-  To stop abuse it keeps a running count of requests per network address for up to an hour, and
-  a once-a-day copy of the popular and upcoming games lists, which belongs to no one.
-  To hide the pictures of adult games, the server also asks Steam's public store page
-  (store.steampowered.com) whether a game carries adult content labels, by the game's Steam number
-  only, and keeps a list of game numbers marked adult or not, which also belongs to no one. Nothing
-  about you is sent to Steam; the server's address is what Steam sees.
-- **Prices for your Wishlist (on unless you turn it off in Settings ▸ Price tracking):** with **Price tracking** on, the
-  app sends the same small server the IGDB web names of the games on your Wishlist (such as
-  "elden-ring"), which of them it has no prices for yet, and the time of the server's last answer.
-  The server finds each game on the PlayStation Store, reads its prices, and sends back every
-  edition's price and the lowest price it has seen. **Not sent:** your name, your account, your
-  notes, ratings or play status (apart from the list of games on your Wishlist itself), or any
-  ID for you or your device. The request carries the same key as the others, and the server's host,
-  like any website, sees your device's IP address. The server keeps **no log of requests and does
-  not keep your list.** For each game it keeps its store listing, its prices and price history, and
-  when anyone last asked about it, and it forgets a game 90 days after the last time anyone asked.
-  That record belongs to the game, not to you: it cannot say who asked or which games a person
-  has. To find a game's store listing the server asks Wikidata and IGDB, and to read its prices it
-  asks the PlayStation Store, by game number only; those sites see the server's address, not you.
-  Tapping an edition in the Pricing section opens its PlayStation Store page in your browser or the
-  PlayStation app, which then see what any website sees.
-- **Pictures:** covers and screenshots are downloaded straight from IGDB's image servers, which,
-  like any website, see your IP address and which picture you asked for.
-- **Importing a file:** the advanced import reads a JSON file you choose, **on your device**. The
-  file is never sent anywhere, and nothing in it is kept except the games you choose to add. To
-  find each game the app asks Wikidata for it by the game's ID, and, like any game you add, asks
-  the developer's server for its time to beat by game ID. The hours, dates, platforms and
-  achievements in the file are not sent. The file holds no name, email or account details, and
-  the app does not read any that a file might carry.
-- **Links you open:** buttons such as *Where to Buy* open a store or reference website in
-  your browser. Those sites have their own privacy policies, and the app sends them nothing
-  but the address you opened.
-- **iCloud:** syncing and sharing go through Apple's iCloud under Apple's own terms and
-  [privacy policy](https://www.apple.com/legal/privacy/).
-- **Notifications from iCloud:** so your devices hear about changes without being opened, the
-  app asks Apple to send it a silent notification when your library or a friend's library
-  changes. It carries no content, shows nothing on screen and goes through Apple's push
-  service. The developer receives nothing.
+Like any website, every service below sees your device's IP address.
 
-That is everything. There are **no ads, no analytics, no tracking and no third-party
-software** that collects data about you.
+- **Wikidata** (run by the Wikimedia Foundation) receives what you type to search for games, the IDs of games, and the
+  app's name and version.
+- **The developer's server** receives IDs or names of games the app needs details or prices for, choices needed to
+  find games for you (such as a genre), and a key that identifies the app, not you. It asks IGDB, Steam and the
+  PlayStation Store on your behalf, so they see the server, not you.
+- **Not sent to either:** your name, an account, your notes, ratings or play status. The one exception is that price
+  tracking tells the server which games are on your Wishlist.
+- **IGDB's image servers** send covers and screenshots.
+- **Apple's iCloud** handles syncing and sharing, including silent notifications between your devices, under Apple's
+  [privacy policy](https://www.apple.com/legal/privacy/).
+- **Links you open** (stores, websites, trailers) open in your browser or their own app, under their own policies.
 
 ## Sharing with friends
 
-When friend sharing is turned on, you choose who can see your library. A friend you share
-with can see **your whole library, including your notes, reviews and the platforms you own each
-game on with their days and hours**, and can add a game to it. The app does not let them change or delete anything. (iCloud gives an invited friend
-write access to your shared library, so this limit is kept by the app, not by iCloud.) You
-can stop at any time: **removing a friend
-removes the link between you on both sides and deletes each person's copy of the other's
-library.** Your own library is not touched. Only share with people you are happy to show
-your list to.
-
-To invite someone, the app asks Apple's iCloud for a private invite link and hands it to
-Apple's share panel (Messages, Mail or Copy Link). The link only works for the person you
-invited. The name you choose for yourself (your profile name) is stored in your iCloud and
-shown to people you share with. Until someone accepts, you see them as "Invited friend" or
-the name Apple gives. When a friend adds a game to your library, their profile name is saved on
-that game ("Added by") and shown to you.
+Sharing is your choice. A friend you share with can see **your whole library, including your notes and reviews**, and
+can add a game to it. The app does not let them change or delete anything; iCloud itself gives an invited friend write
+access, so that limit is kept by the app. Your friends see the profile name you choose. Removing a friend removes the
+link on both sides and each person's copy of the other's library. Only share with people you are happy to show your
+list to.
 
 ## Your choices
 
-- **Export:** you can export your library (CSV or JSON) whenever you like, so your data can
-  always leave.
-- **Delete:** you can remove games one by one, or delete all your data in the app: on iPhone and iPad
-  in **Home ▸ Settings (the gear) ▸ Delete All My Data**, and on Mac in **Settings ▸ Delete All My Data** or **File ▸ Delete All My Data**.
-  That removes your library, history, friends and settings from this device, and, once iCloud
-  sync is on, your games and your profile name from your iCloud copy. It also ends your sharing,
-  so the friends you shared with can no longer see your games. It can't be undone.
-- **Stop sharing** with a friend whenever you want.
-- **Support info:** if something goes wrong, **Settings ▸ Support Info** shows a short report you can
-  read, copy or share to get help. It is made on your device and goes nowhere unless you send it.
-  It holds the app and system versions, the iCloud status, counts and a log of sharing events with
-  their times. Names are replaced with "Me" and "Friend 1", "Friend 2", links and email addresses are
-  removed, and long numbers and iCloud IDs are cut short.
-- You can also delete the app's iCloud data in your device's iCloud settings.
-
-## TestFlight and the App Store
-
-If you install through TestFlight or the App Store, **Apple** may collect crash reports,
-usage and feedback you choose to send, under Apple's terms. The developer receives only what
-Apple provides, such as crash logs and any feedback you send through TestFlight.
-
-TestFlight builds also have **iCloud Diagnostics** in Settings, a troubleshooting screen with
-more detail than Support Info, including friends' names and the invite link. You can copy it
-to send to the developer; it goes nowhere unless you do. The App Store version does not have
-it. The app asks Apple whether it was installed through TestFlight or the App Store to decide
-this, and sends nothing else.
+- **Export** your library whenever you like.
+- **Delete** games one at a time, or use **Delete All My Data** in the app. That removes your data from the device and
+  from your iCloud copy, ends sharing, and cannot be undone.
+- **Turn off** price tracking, reminders or sync, and **stop sharing**, whenever you want.
+- **Support reports** are made on your device and go nowhere unless you send them. Names, links and IDs are removed or
+  shortened. TestFlight builds also have a more detailed diagnostics screen that can include friends' names and an
+  invite link; it too is only sent if you send it.
 
 ## Children
 
@@ -160,9 +75,9 @@ The app is not directed at children and does not knowingly collect anything from
 
 ## Changes
 
-If the app starts to collect or share something new, this page will change first, and the
-effective date above will move. Anything that changes where your data lives or who can see
-it will also be announced in the app, with a link here, before it applies to you.
+This page changes first if the app starts to collect, keep or share something new, and the effective date will move.
+Anything that changes where your data lives or who can see it will also be announced in the app before it applies to
+you.
 
 | Date | What changed |
 |---|---|
@@ -175,7 +90,10 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-11-13 | Described the platforms you can record on a game (how you have it, days and hours), which friends you share with can see; the advanced import, which reads a JSON file you choose on your device and sends none of its contents anywhere (the app asks Wikidata and the developer's server for each game by its ID, as it does for any game); and Change Game, which switches a game to a different edition and is kept in the undo history. Nothing new is collected, and the App Store privacy label stays "Data Not Collected". |
 | 2026-11-15 | Said the app is also for iPad. Nothing new is collected or shared; an iPad works like an iPhone, and the App Store privacy label stays "Data Not Collected". |
 | 2026-11-18 | Described the optional Price tracking, off until you turn it on: with it on, the app sends the developer's server the IGDB web names of the games on your Wishlist, and the server reads their PlayStation Store prices. It keeps each game's prices and when anyone last asked about it (forgetting a game after 90 days), never a log of requests, your list or who asked. The copy of prices on your device is removed by Delete All My Data. Nothing is sent unless you switch it on. |
-| 2026-11-20 | Price tracking is now on unless you turn it off in Settings ▸ Price tracking (it was off until you turned it on). Nothing about what is sent or kept changed: the IGDB web names of the games on your Wishlist go to the developer's server, which keeps each game's prices and when anyone last asked, never who asked. Someone who had already chosen keeps their choice. |
+| 2026-11-20 | Price tracking is now on unless you turn it off in Settings ▸ Prices (it was off until you turned it on). Nothing about what is sent or kept changed: the IGDB web names of the games on your Wishlist go to the developer's server, which keeps each game's prices and when anyone last asked, never who asked. Someone who had already chosen keeps their choice. |
+| 2026-11-26 | Described viewing a game's pictures full screen (a larger copy comes from IGDB's image servers and is not saved) and the Watch trailer button, which opens YouTube. Nothing new is collected by the developer, and the App Store privacy label stays "Data Not Collected". |
+| 2026-11-26 | Updated the Settings paths for the new Settings layout (Notifications, Prices, Sync & Storage, Your Games, About & Help). Nothing about what is collected, sent or kept changed. |
+| 2026-11-27 | Rewritten to be shorter and more general. It now starts with the few things that are kept. Also covers choosing a genre when asking for a game to play: the genre's name is sent to the developer's server. Nothing new is kept about you. |
 
 ## Contact
 
