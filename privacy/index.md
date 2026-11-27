@@ -28,13 +28,13 @@ it keeps those games and their prices, never who asked.
 - **A short log of sharing events** (such as an invite sent or accepted, with times, counts and
   shortened IDs, and friends' names), on your device only. It is shown in TestFlight builds and
   never leaves your device unless you send it (see **Support info**).
-- **Release-day reminders (optional, off until you turn them on).** If you switch on **Settings ▸ Release reminders**, the app asks your Mac, iPhone or iPad for permission to show notifications and then schedules a local notification for 9 AM on the day each game on your Upcoming list comes out. They are made and shown on your device; nothing about them is sent to the developer, to Apple's push service or to anyone else. Turning the switch off, or Delete All My Data, removes them.
-- **Prices (on unless you turn it off).** Unless you switch off **Settings ▸ Price tracking**, the app keeps a copy of the PlayStation Store prices for the games on your Wishlist, in one file on your device. It is not synced to iCloud or backed up, and **Delete All My Data** removes it. Turning the switch off stops new lookups.
+- **Release-day reminders (optional, off until you turn them on).** If you switch on **Settings ▸ Notifications**, the app asks your Mac, iPhone or iPad for permission to show notifications and then schedules a local notification for 9 AM on the day each game on your Upcoming list comes out. They are made and shown on your device; nothing about them is sent to the developer, to Apple's push service or to anyone else. Turning the switch off, or Delete All My Data, removes them.
+- **Prices (on unless you turn it off).** Unless you switch off **Settings ▸ Prices**, the app keeps a copy of the PlayStation Store prices for the games on your Wishlist, in one file on your device. It is not synced to iCloud or backed up, and **Delete All My Data** removes it. Turning the switch off stops new lookups.
 - **A short history of removals, imports and changes,** such as switching a game to a different
   edition with **Change Game**, on your device only, for undoing them for three days.
 - **Game facts and pictures from IGDB,** on your device only: covers, screenshots, time to
   beat, game modes and ratings, kept so the app works offline and doesn't ask twice. They are
-  never synced, exported or shared. **Settings ▸ Game data ▸ Clear Cached Game Data** removes them.
+  never synced, exported or shared. **Settings ▸ Sync & Storage ▸ Clear Cached Game Data** removes them.
 
 On your device this is kept in the app's own storage. When iCloud sync is available, your
 library is also kept in **your own iCloud account** (Apple's CloudKit), so it can appear on
@@ -45,7 +45,7 @@ with (see below) can.
 Next to your library, your private iCloud also keeps a few facts about each game, taken from IGDB:
 its three times to beat (main story, main + extras and completionist) and its game modes. That lets your other devices show them without asking
 again. They are kept apart from the library you share, so friends cannot see them. You can turn
-this off in **Settings ▸ Data saving**, and Delete All My Data removes them.
+this off in **Settings ▸ Sync & Storage**, and Delete All My Data removes them.
 
 ## What the app sends over the internet
 
@@ -71,7 +71,7 @@ this off in **Settings ▸ Data saving**, and Delete All My Data removes them.
   (store.steampowered.com) whether a game carries adult content labels, by the game's Steam number
   only, and keeps a list of game numbers marked adult or not, which also belongs to no one. Nothing
   about you is sent to Steam; the server's address is what Steam sees.
-- **Prices for your Wishlist (on unless you turn it off in Settings ▸ Price tracking):** with **Price tracking** on, the
+- **Prices for your Wishlist (on unless you turn it off in Settings ▸ Prices):** with **Price tracking** on, the
   app sends the same small server the IGDB web names of the games on your Wishlist (such as
   "elden-ring"), which of them it has no prices for yet, and the time of the server's last answer.
   The server finds each game on the PlayStation Store, reads its prices, and sends back every
@@ -132,12 +132,12 @@ that game ("Added by") and shown to you.
 - **Export:** you can export your library (CSV or JSON) whenever you like, so your data can
   always leave.
 - **Delete:** you can remove games one by one, or delete all your data in the app: on iPhone and iPad
-  in **Home ▸ Settings (the gear) ▸ Delete All My Data**, and on Mac in **Settings ▸ Delete All My Data** or **File ▸ Delete All My Data**.
+  in **Settings ▸ Your Games ▸ Delete All My Data**, and on Mac in **File ▸ Delete All My Data**.
   That removes your library, history, friends and settings from this device, and, once iCloud
   sync is on, your games and your profile name from your iCloud copy. It also ends your sharing,
   so the friends you shared with can no longer see your games. It can't be undone.
 - **Stop sharing** with a friend whenever you want.
-- **Support info:** if something goes wrong, **Settings ▸ Support Info** shows a short report you can
+- **Support info:** if something goes wrong, **Settings ▸ About & Help ▸ Support Info** shows a short report you can
   read, copy or share to get help. It is made on your device and goes nowhere unless you send it.
   It holds the app and system versions, the iCloud status, counts and a log of sharing events with
   their times. Names are replaced with "Me" and "Friend 1", "Friend 2", links and email addresses are
@@ -177,8 +177,9 @@ it will also be announced in the app, with a link here, before it applies to you
 | 2026-11-13 | Described the platforms you can record on a game (how you have it, days and hours), which friends you share with can see; the advanced import, which reads a JSON file you choose on your device and sends none of its contents anywhere (the app asks Wikidata and the developer's server for each game by its ID, as it does for any game); and Change Game, which switches a game to a different edition and is kept in the undo history. Nothing new is collected, and the App Store privacy label stays "Data Not Collected". |
 | 2026-11-15 | Said the app is also for iPad. Nothing new is collected or shared; an iPad works like an iPhone, and the App Store privacy label stays "Data Not Collected". |
 | 2026-11-18 | Described the optional Price tracking, off until you turn it on: with it on, the app sends the developer's server the IGDB web names of the games on your Wishlist, and the server reads their PlayStation Store prices. It keeps each game's prices and when anyone last asked about it (forgetting a game after 90 days), never a log of requests, your list or who asked. The copy of prices on your device is removed by Delete All My Data. Nothing is sent unless you switch it on. |
-| 2026-11-20 | Price tracking is now on unless you turn it off in Settings ▸ Price tracking (it was off until you turned it on). Nothing about what is sent or kept changed: the IGDB web names of the games on your Wishlist go to the developer's server, which keeps each game's prices and when anyone last asked, never who asked. Someone who had already chosen keeps their choice. |
+| 2026-11-20 | Price tracking is now on unless you turn it off in Settings ▸ Prices (it was off until you turned it on). Nothing about what is sent or kept changed: the IGDB web names of the games on your Wishlist go to the developer's server, which keeps each game's prices and when anyone last asked, never who asked. Someone who had already chosen keeps their choice. |
 | 2026-11-26 | Described viewing a game's pictures full screen (a larger copy comes from IGDB's image servers and is not saved) and the Watch trailer button, which opens YouTube. Nothing new is collected by the developer, and the App Store privacy label stays "Data Not Collected". |
+| 2026-11-26 | Updated the Settings paths for the new Settings layout (Notifications, Prices, Sync & Storage, Your Games, About & Help). Nothing about what is collected, sent or kept changed. |
 
 ## Contact
 

@@ -12,7 +12,7 @@ a question, email **naterowandev@gmail.com**. I read every message.
 
 The app can write a short report that helps me see what went wrong:
 
-1. Open **Settings ▸ Support Info** (on iPhone and iPad: the gear on Home).
+1. Open **Settings ▸ About & Help ▸ Support Info** (on iPhone and iPad, Settings is in the menu under your profile picture at the top of Home; on Mac it is the About tab of Settings).
 2. Read the report. It holds the app and system versions, the iCloud status, counts and a log
    of sharing events with their times. Names are replaced with "Me" and "Friend 1", "Friend 2",
    and links, email addresses and long IDs are removed or cut short.
@@ -25,7 +25,7 @@ Nothing is sent unless you send it.
 
 **My games are not syncing between my Mac, iPhone and iPad.**
 Check that both devices are signed in to the same iCloud account and that iCloud is on for
-Pixel In Waiting (Settings ▸ iCloud on iPhone or iPad, System Settings ▸ Apple Account ▸ iCloud on
+Pixel In Waiting (Settings ▸ Sync & Storage on iPhone or iPad, System Settings ▸ Apple Account ▸ iCloud on
 Mac). Sync needs a connection; the app works offline and catches up later.
 
 **A friend's invite does not work.**
@@ -37,7 +37,7 @@ In **Friends**, use **Stop Sharing** for that person (or **Cancel Invite** if th
 remove them from your list.
 
 **How do I get my games out of the app?**
-**Settings ▸ Export** saves your library as CSV or JSON. You can import a file the same way. The JSON export
+**Settings ▸ Your Games ▸ Export** (on Mac: **File ▸ Export**) saves your library as CSV or JSON. You can import a file the same way. The JSON export
 can include **Platforms Owned On**, and restoring that file brings the platforms back.
 
 **Which platform did I play a game on? Can I own it on more than one?**
@@ -53,7 +53,7 @@ other game, the two are merged and you are asked first. **Recent Changes** can u
 
 **Can I import play time and dates from a file?**
 Yes. The **advanced import** reads a JSON file in a documented format (see [the file](#the-advanced-import-file-version-1)
-below) and fills in platforms, hours and dates for games it finds by their Wikidata ID. Choose **Settings ▸ Import**,
+below) and fills in platforms, hours and dates for games it finds by their Wikidata ID. Choose **Settings ▸ Your Games ▸ Import** (on Mac: **File ▸ Import CSV**),
 or open the file from Messages or Files. Nothing changes until you have looked over the review, where games are
 grouped (New Games, Updates, Probably Finished, Not Found, No Change). It adds missing games and fills blanks, and a day
 that conflicts with one you already have is offered unticked, so yours stays unless you tick it. The file is read on your device and is never sent anywhere. One
@@ -61,7 +61,7 @@ that conflicts with one you already have is offered unticked, so yours stays unl
 changes nothing.
 
 **Can the app fill in the platform for me?**
-Yes. In **Settings**, choose a **Default platform**. When you mark a game Owned, Playing, Played or Abandoned and its
+Yes. In **Settings ▸ General**, choose a **Default platform**. When you mark a game Owned, Playing, Played or Abandoned and its
 platform is empty, the app fills in the default, if the game is on that platform. It never replaces a platform you
 set, and the setting is kept on this device only.
 
@@ -72,12 +72,12 @@ that already have a platform, or are not on the one you pick, are left alone, an
 Changes** can undo it for three days.
 
 **Can I change what Home shows?**
-Yes. Tap the slider icon at the top of Home, beside your profile picture (also in **Settings ▸ Customize Home…**).
+Yes. Tap the slider icon at the top of Home, beside your profile picture (also in **Settings ▸ General ▸ Customize Home…**).
 Drag the tiles to reorder them, switch one off to hide it, or choose **Reset** to go back. The layout is saved on that
 device only.
 
 **Can I change what Play Next shows?**
-Yes, the same way: tap the slider icon at the top of Play Next (also in **Settings ▸ Customize Play Next…**). Every
+Yes, the same way: tap the slider icon at the top of Play Next (also in **Settings ▸ General ▸ Customize Play Next…**). Every
 section can be moved or hidden, including **Who's playing** and the list of games. The layout is saved on that device
 only.
 
@@ -111,7 +111,7 @@ version older than 3.1.0 skips an Ongoing game until it is updated.
 **A banner says some games can't be read by this version of the app.**
 Tap the banner to see which games and why. Most often your iCloud library holds games that a newer version of the app
 added, for example one marked Ongoing or Not Interested, and updating the app on this device shows them. If the reason
-says the data is missing or damaged, an update won't change it: send Settings ▸ Support Info, which lists the same
+says the data is missing or damaged, an update won't change it: send Settings ▸ About & Help ▸ Support Info, which lists the same
 reasons, to the developer. Nothing is lost.
 
 **How do I search for a game?**
@@ -120,7 +120,7 @@ itself and shows the results. For a shorter title, press Return or tap the **Sea
 under the search box (popular, new, coming soon) are there until you search.
 
 **How does price tracking work?**
-**Settings ▸ Price tracking ▸ Track prices.** It is on by default. The app looks up the PlayStation Store price, in US
+**Settings ▸ Prices ▸ Track prices.** It is on by default. The app looks up the PlayStation Store price, in US
 dollars, of the games on your Wishlist through the developer's server, which is sent only those games' IGDB names.
 Prices show under titles, on Home's Wishlist deals tile and in a Pricing section on the game's page. Pick PS5 or PS4
 as the platform. Turn the switch off to stop lookups. Your copy of the prices stays on your device, and **Delete All My
@@ -134,7 +134,7 @@ A list from another copy of the app starts on **Restore missing only**, so games
 kept as they are, and **Recent Changes** can undo an import for three days.
 
 **How do I delete my data?**
-**Settings ▸ Delete All My Data** (on Mac also File ▸ Delete All My Data). It removes your
+**Settings ▸ Your Games ▸ Delete All My Data** (on Mac: File ▸ Delete All My Data). It removes your
 library, history, friends and settings from your device and from iCloud, ends your sharing and
 deletes your profile name. It cannot be undone, so export first if you want a copy.
 
@@ -144,7 +144,7 @@ deletes your profile name. It cannot be undone, so export first if you want a co
 **Covers, time to beat or ratings are missing for a game.**
 The details come from IGDB, which does not know every game. Check you are online, then open the game
 again; the app asks again when its saved details are a week old for a new game, or three months for an
-older one. **Settings ▸ Game data ▸ Refresh Game Data** asks again now, once an hour. If the data service
+older one. **Settings ▸ Sync & Storage ▸ Refresh Game Data** asks again now, once an hour. If the data service
 is very busy, the app shows placeholders and fills them in later.
 
 **How do I see a game's pictures or trailer?**
@@ -155,14 +155,14 @@ before this version may not show it until its saved details are next refreshed (
 Pictures need **Download artwork** on, and are hidden for games marked adult.
 
 **How do I clear the covers and details the app saved?**
-**Settings ▸ Game data ▸ Clear Cached Game Data.** They are saved only on your device and come back when
+**Settings ▸ Sync & Storage ▸ Clear Cached Game Data.** They are saved only on your device and come back when
 you open a game. Your library is not touched.
 
 **How do I turn release-day reminders on or off?**
-**Settings ▸ Release reminders ▸ Remind me on release day.** Turning it on asks your Mac, iPhone or iPad for permission to show notifications. If you said no, allow Pixel In Waiting in System Settings ▸ Notifications and try again. You get one notification at 9 AM on the day a game on your Upcoming list comes out, and only for games with an exact date. Tap it to open the game. Turning the switch off removes them.
+**Settings ▸ Notifications ▸ Remind me on release day.** Turning it on asks your Mac, iPhone or iPad for permission to show notifications. If you said no, allow Pixel In Waiting in System Settings ▸ Notifications and try again. You get one notification at 9 AM on the day a game on your Upcoming list comes out, and only for games with an exact date. Tap it to open the game. Turning the switch off removes them.
 
 **The sync line says "Another device just changed a game. Syncing again…"**
-Two of your devices changed the same game at about the same time. The app syncs again by itself; nothing is lost. If it stays on that line, open the app on the other device and try **Sync Now** in **Settings ▸ iCloud**.
+Two of your devices changed the same game at about the same time. The app syncs again by itself; nothing is lost. If it stays on that line, open the app on the other device and try **Sync Now** in **Settings ▸ Sync & Storage**.
 
 **Where does my data live?**
 Your library is on your device and in your own iCloud account. Game details and covers from IGDB are
